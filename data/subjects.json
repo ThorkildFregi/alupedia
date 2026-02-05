@@ -1,0 +1,14 @@
+{
+    "subjects": [
+        {
+            "folder": "philo",
+            "title": "Philosophie",
+            "contents": [
+                {
+                    "file": "technique.json",
+                    "title": "La technique et la nature"
+                }
+            ]
+        }
+    ]
+}
