@@ -1,0 +1,20 @@
+<div class="container">
+    {% for content in contents %}
+        {% if content["type"] == "act" %}
+            
+            <a href="#{{ content['title'] }}"><h5>{{ content["title"] }}</h5></a>
+        {% elif content["type"] == "chapter" %}
+            <ul>
+            <a href="#{{ content['title'] }}"><h5>{{ content["title"] }}</h5></a>
+            </ul>
+        {% elif content["type"] == "underchapter" %}
+            <ul>
+            <ul>
+            <a href="#{{ content['title'] }}"><h5>{{ content["title"] }}</h5></a>
+            </ul>
+            </ul>
+        {% endif %}
+
+    {% endfor %}
+    
+</div>

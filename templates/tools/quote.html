@@ -1,0 +1,9 @@
+<figure>
+  <blockquote class="blockquote">
+    <p>« {{ content["text"] }} »</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <a href="{{ content['wikipedia'] }}">{{ content["author"] }}</a> {% if content["source"] != "" %} dans <cite title="Source Title">{{ content["source"] }}</cite> {% endif %}
+  </figcaption>
+</figure>
+<br>

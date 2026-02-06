@@ -1,3 +1,252 @@
 {
-    "title": "La technique et la nature"
+    "subject": "Philosophie",
+    "title": "La technique et la nature",
+    "contents": [
+        {
+            "type": "act",
+            "title": "Introduction"
+        },
+        {
+            "type": "opposition",
+            "oA_title": "LA technique",
+            "oA_text": "La sphère des moyens construit et fabriqué par l'homme; c'est-à-dire l'ensemble des outils, instruments et objets fabriqués par l'homme dont il est à la fois l'auteur et l'utilisateur.",
+            "oB_title": "UNE technique",
+            "oB_text": "Un savoir-faire, une habileté."
+        },
+        {
+            "type": "text",
+            "content": "On parle ici, évidemment, de LA technique."
+        },
+        {
+            "type": "quote",
+            "author": "Bergson",
+            "wikipedia": "https://fr.wikipedia.org/wiki/Henri_Bergson",
+            "source": "L'évolution créatrice",
+            "text": "Si nous pouvions nous dépouiller de tout orgueil, si, pour définir notre espèce, nous nous en tenions strictement à ce que l'histoire et la préhistoire nous présentent comme la caractéristique constante de l'homme et de l'intelligence, nous ne dirions peut-être pas Homo sapiens, mais Homo faber. En définitive, l'intelligence, envisagée dans ce qui en paraît être la démarche originelle, est la faculté de fabriquer des objets artificiels, en particulier des outils à faire des outils, et d'en varier indéfiniment la fabrication."
+        },
+        {
+            "type": "text",
+            "content": "Bergson a pour idée que l'homme est avant tout Homo faber, c'est-à-dire, fabricant d'outils avant même d'être l'\"être intelligent\", Homo sapiens. Cela peut paraître paradoxale d'opposer les deux car pour fabriquer il faut l'intelligence mais Bergson ne le nie pas, il veut surtout montrer que l'intelligence se développe au contact de la fabrication d'outils. Ainsi, l'homme est sapiens parce qu'il est faber et la technique fait partie de l'essence de l'homme."
+        },
+        {
+            "type": "text",
+            "content": "La technique singularise l'humain au sein de la nature. En effet, l'humain est partie de la nature car il est un être vivant soumis à ses lois. Cependant, l'humain s'arrache à la nature en faisant advenir un monde d'objets fabriqués. Il faut donc différencier nature et artifice."
+        },
+        {
+            "type": "opposition",
+            "oA_title": "La nature",
+            "oA_text": "La totalité matérielle qui existe indépendamment de l'action humaine.",
+            "oB_title": "L'artifice",
+            "oB_text": "Ce qui est fabriqué et produit par l'activité humaine."
+        },
+        {
+            "type": "text",
+            "content": "La technique confert à l'humain, d'après Descartes, une puissance inégalée : la technique permet de se rendre « comme maître et possesseur de la nature. ». En même temps, la technique présente des inconvénients : l'asservissement de l'homme, ainsi que la destruction des équilibres naturels."
+        },
+        {
+            "type": "keyquestion",
+            "content": "À quoi faut-il soumettre le développement technique pour que celui-ci reste libérateur ?"
+        },
+        {
+            "type": "list",
+            "opening": "Il y a deux idées principales",
+            "contents": [
+                "La technique ne doit pas devenir un but en soi",
+                "Il faut soumettre le développement technique à des principes moraux : l'utilisation de la technique est créatrice de nouveaux devoirs"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Il faut éviter les jugements de valeur contrastée à propos de la technique, que ce soit une position technophile ou technophobe."
+        },
+        {
+            "type": "act",
+            "title": "I - La puissance de la technique"
+        },
+        {
+            "type": "chapter",
+            "title": "A - Un fabuleux pouvoir d'adaptation"
+        },
+        {
+            "type": "text",
+            "content": "L'humain s'adapte à son environnement par et grâce à la technique. Constat partagé par les partisans d'une anthropologie positive et par les partsians d'une anthropologie négative."
+        },
+        {
+            "type": "text",
+            "content": "Dans le mythe de Prométhée, symbole de l'anthropologie négative, ayant une fonction éthiologique (pour expliquer/rendre-compte de certains phénomènes), Platon veut rendre compte de la place et du rôle de la technique dans l'existence de l'homme. Le mythe rend compte de la vulnérabilité et de la nudité de l'homme, il est un être démunis, privé des qualités qui lui permettent de survivre car Epiméthé a tous distribuer aux animaux et il ne restait plus rien pour l'homme. La technique compense cette nudité originelle. C'est une puissance divine puisque volé à Héphaïstos et Athéna par Prométhée. L'humain survit grâce à la technique."
+        },
+        {
+            "type": "text",
+            "content": "Au contraire, l'anthropologie positive considère que l'humain a la technique car il a des caractéristiques supplémentaires par rapport à l'animal. L'humain dispose de mains avec un pouce opposable plus long que celui des primates supérieurs, ainsi que la bipédie qui permet d'avoir les mains plus libres."
+        },
+        {
+            "type": "quote",
+            "author": "Aristote",
+            "wikipedia": "https://fr.wikipedia.org/wiki/Aristote",
+            "source": "Les parties des animaux, Livre IV, 687a7 - 687b24",
+            "text": "La main semble bien être, non pas un seul instrument, mais plusieurs, car c'est comme si elle était un instrument pour des instruments."
+        },
+        {
+            "type": "text",
+            "content": "Selon Aristote, l'animal est contraint de conserver toujours le même moyen de défense là où la main peut produire des outils ou des armes variées. L'outil prolonge et dépasse le corps, il améliore notre puissance et la précision de nos gestes. L'animal dans la plupart des cas conserve uniquement ses organes naturelles. L'homme a une capacité de développement et d'adaptation beaucoup plus importantes que l'animal grâce à la technique."
+        },
+        {
+            "type": "chapter",
+            "title": "B - La maîtrise de la nature"
+        },
+        {
+            "type": "list",
+            "opening": "Grâce à la technique l'humain développe son emprise sur la nature : il se libère des dangers et des menaces d'une nature non domestiqué. Il se libère",
+            "contents": [
+                "des prédateurs",
+                "des catastrophes naturelles et évènements météorologiques",
+                "des maladies et des épidémies",
+                "de la famine"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "La technique permet d'adapter la nature a nos besoins, l'humain commande à la nature pour la faire produire les effets qu'il recherche."
+        },
+        {
+            "type": "text",
+            "content": "Pour accroître son emprise sur la nature, l'humain  doit s'appuyer sur la science; il faut connaître les lois de la nature pour la maîtriser."
+        },
+        {
+            "type": "quote",
+            "author": "Bergson",
+            "wikipedia": "https://fr.wikipedia.org/wiki/Henri_Bergson",
+            "source": "Novun Organum",
+            "text": "Or l'empire de l'homme sur les choses repose tout entier sur les arts et les sciences. Car on ne gagne d'empire sur la nature qu'en lui obéissant."
+        },
+        {
+            "type": "text",
+            "content": "L'objectif du projet rationaliste est la famause citation de Descartes « se rendre comme maître et possesseur de la nature ». Cependant, il faut différencier maîtrise et domination. En effet, il recherche la capacité à produire les effets que l'on recherche. Le \"comme\" montre que l'on ne peut être complètement maître car on ne décide pas des lois de la nature."
+        },
+        {
+            "type": "quote",
+            "author": "Victor Hugo",
+            "wikipedia": "https://fr.wikipedia.org/wiki/Victor_Hugo",
+            "source": "",
+            "text": "Ne nous éxagérons pas la puissance de l'homme, quoi qu'il fasse les grandes lignes de la création persiste, il peut sur le détail mais non sur l'ensemble."
+        },
+        {
+            "type": "text",
+            "content": "L'humain est moins à la mercie des évènements naturels. En effet, Freud, dans Malaise dans la civilisation, chapitre 2, explique la technique et la science ont un rôle fondamentale dans le bonheur de l'humain. Il consièdre qu'il y a trois sources de souffrances : la nature et le corps, où l'on retrouve une technique libératrice, et les autres"
+        },
+        {
+            "type": "chapter",
+            "title": "C - Travail, Technique, Loisir"
+        },
+        {
+            "type": "text",
+            "content": "Grâce à la technique, on travaille plus efficacement. Il y a, ainsi moins de temps de travail, et donc, plus de temps à donner aux loisir nobles. Les loisirs sont donc comme lieu de la liberté de l'homme."
+        },
+        {
+            "type": "act",
+            "title": "II - Les méfaits de la technique"
+        },
+        {
+            "type": "chapter",
+            "title": "A - Les méfaits de la civilisation industrielle"
+        },
+        {
+            "type": "text",
+            "content": "Deux points amènent les méfaits de la civilisation industrielle. En premier lieu, l'introduction du mécanisme amène à la division horizontale du travail (Cf cours sur le travail). De plus, la production de masse baisse la valeur des objets produits."
+        },
+        {
+            "type": "quote",
+            "author": "Hannah Arendt",
+            "wikipedia": "https://en.wikipedia.org/wiki/Hannah_Arendt",
+            "source": "Conditions de l'homme moderne, chapitre 6 \"La société de consommation\"",
+            "text": "Notre économie est devenue une économie de gaspillage dans laquelle il faut que les choses soient dévorées ou jetées aussi vite qu'elles apparaissent dans le monde."
+        },
+        {
+            "type": "text",
+            "content": "L'objet est fait pour être usé et remplacé, ce que l'on appelle l'obsolescencee programmée. L'art est le seul domaine ou la durabilité et la permanence sont préservées. Arendt regrette qu'il n'y ait plus de place pour un monde d'objet durable dans lequel l'humain peut se reconnaître."
+        },
+        {
+            "type": "text",
+            "content": "Désirs infinis, futiles, illimités, le besoin ne préexiste plus à l'objet techniques, c'est l'objet technique qui crée le besoin. L'individu n'interroge plus l'utilité réelle des objets techniques qu'il consomme."
+        },
+        {
+            "type": "chapter",
+            "title": "B - La technique comme idéologie"
+        },
+        {
+            "type": "text",
+            "content": "Habermas, dans La science et la technique comme idéologie, veut montrer que la technique n'est pas un instrument neutre et qu'elle étend ses valeurs à toutes les sphères de l'existeence humaine."
+        },
+        {
+            "type": "text",
+            "content": "L'idéologie technicienne (techniciste) s'étend à des domaines où elle ne devrait pas s'appliquer."
+        },
+        {
+            "type": "list",
+            "opening": "Croisement Raison / Technique ! La rationalité technique triomphe sur",
+            "contents": [
+                "Le fait de raisonner en tout domaine selon une logique moyen/fin",
+                "La recherche de l'efficacité"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "En politique, par exemple, la délibération est entâchée par la technocratie, c'est-à-dire, la démocratie des experts, ce sont les hauts-fonctionnaires qui donnent les indicateurs de performances ou définissent les objectifs."
+        },
+        {
+            "type": "text",
+            "content": "Dans l'éducation et la recherche, on retrouve une recherche de l'efficacité à travers les politiques publiques comme le classement PISA ou dans les universités, à l'inverse de l'idéal humaniste de formation de l'individu."
+        },
+        {
+            "type": "text",
+            "content": "Les conséquences selon Ivan Illich sont que les individus sont déposédés de décider de leur propre existence. Ils sont soumis à des institution qui prennent en charge de façon efficace leur besoin et au nom de cette efficacité. Dans la société sans école, il prône la suppression de l'école pour la remplacer par une plateforme où l'on peut apprendre ce que l'on veut, comme on le veut. Aussi, toujours d'après Illich, dans La médecine, on ne peut pas décider de se soigner comme on l'entend et on prône un modèle de médecines occidentales orientées vers le médicament."
+        },
+        {
+            "type": "text",
+            "content": "Il faut s'élever contre l'idéal techniciste, contre l'idéal de l'éfficacité pour se réapproprier les moyens de son existence."
+        },
+        {
+            "type": "chapter",
+            "title": "C - La destruction de la nature"
+        },
+        {
+            "type": "text",
+            "content": "Ce n'est pas seulement pour l'humain que la technique est dangereuse mais aussi pour la nature. D'après Heidegger, il y a une rupture dans la technique moderne. Toute chose est ramener à la raison technicienne, ce que l'on appelle l'ARRAISONNEMENT de la nature. Cela crée une violence vis à vis de la nature."
+        },
+        {
+            "type": "text",
+            "content": "L'appropriation des ressources naturelles, l'araisonnement, le fait de voir la nature uniquement comme un stock de ressources exploitables, l'humain \"somme\" la nature d'être à sa disposition."
+        },
+        {
+            "type": "quote",
+            "author": "Heidegger",
+            "wikipedia": "https://fr.wikipedia.org/wiki/Martin_Heidegger",
+            "source": "\"La question de la technique\", Essais et conférences",
+            "text": "La centrale électrique est mise en place dans le Rhin. Elle le somme de livrer sa pression hydraulique, qui somme à son tour les turbines de tourner. Ce mouvement fait tourner la machine dont le mécanisme produit le courant électrique, pour lequel la centrale régionale et son réseau sont commis aux fins de transmission. Dans le domaine de ces conséquences s'enchaînant l'une l'autre à partir de la mise en place de l'énergie électrique, le fleuve' du Rhin apparaît, lui aussi, comme quelque chose de commis. La centrale n'est pas construite dans le courant du Rhin comme le vieux pont de bois qui depuis des siècles unit une rive à l'autre. C'est bien plutôt le fleuve qui est muré dans la cenirale. Ce qu'il est aujourd'hui comme fleuve, à savoir fournisseur de pression hydraulique, il l'est de par l'essence de la centrale. [...] Le dévoilement qui régit complétement la technique moderne a le caractère d'un commandement, au sens de mise à disposition."
+        },
+        {
+            "type": "text",
+            "content": "Heidegger voit dans la centrale, l'essence de la technique moderne qui altère le cours naturel des choses poru servir ses propres intérêts. Pour la centrale, le fleuve est instrumentalisé alros que le pont n'altère pas le cours du fleuve. La centrale force la nature a être source d'énergie hydraulique. La nature perds de sa liberté."
+        },
+        {
+            "type": "text",
+            "content": "Plus l'activité technique de l'humain s'accroit, plus les équilibres naturels de l'humain sont menacés. En effet, l'humain dépasse les ressources que la Terre peut regénérer en une année. Le jour où cela se passe s'appelle le jour du dépassement, en 2025, s'était le 24 juillet. Mais chaque année il est de plus en plus tôt."
+        },
+        {
+            "type": "text",
+            "content": "Le développement technique se développe à telle point qu'on parle d'Anthropocène. L'Anthropocène désigne l'époque géologique nouvelle où les hommes sont la principales source de changement dans le monde."
+        },
+        {
+            "type": "text",
+            "content": "Selon Heidegger, la source de la technique sur la nature est révélatrice de son essence. La technique est la recherche du pouvoir au détriment de ce qui est extérieur à elle. Le problème est que l'homme est aussi partie de la nature, il se menace donc lui-même. Il faut ainsi poser la question de la transformation de la nature par l'homme."
+        },
+        {
+            "type": "act",
+            "title": "III - Le développement technique impose de nouveaux devoirs"
+        },
+        {
+            "type": "chapter",
+            "title": "A - La subordination de la technique à la morale"
+        }
+    ]
 }

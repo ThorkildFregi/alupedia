@@ -8,34 +8,12 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
-    <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark p-2 bg-dark fixed-top">
-        <a class="navbar-brand" href="{{url_for('home')}}">Alupedia</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                {% for subject in subjects %}
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        {{ subject["title"] }}
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            {% for content in subject["contents"] %}
-                                <a class="dropdown-item" href="/lesson?folder={{subject['folder']}}&file={{content['file']}}">{{ content["title"] }}</a>
-                            {% endfor %}
-                        </div>
-                    </li>
-                {% endfor %}
-            </ul>
-        </div>
-    </nav>
+    {% include "/tools/header.html" %}
+    
     <div class="container-sm p-5 my-5 bg-light">
-        <h4>Bienvenue sur Alupedia</h1>
+        <h3>Bienvenue sur Alupedia</h4>
     </div>
     
   </body>

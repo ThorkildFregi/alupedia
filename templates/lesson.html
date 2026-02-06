@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Leçon de {{ subject }} - {{ title }}</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    {% include "/tools/header.html" %}
+
+    <div class="container-sm p-5 my-5 bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h3><strong>{{ title }}</strong></h4>
+                </div>
+                <div class="col text-end">
+                    <h5><u>{{ subject }}</u></h5>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <h4>Sommaire</h4>
+        {% include "/tools/table_contents.html" %}
+
+        <hr>
+
+        {% for content in contents %}
+            {% if content["type"] == "act" %}
+                {% include "/tools/act.html" %}
+            {% elif content["type"] == "opposition" %}
+                {% include "/tools/opposition.html" %}
+            {% elif content["type"] == "text" %}
+                {% include "/tools/text.html" %}
+            {% elif content["type"] == "quote" %}
+                {% include "/tools/quote.html" %}
+            {% elif content["type"] == "keyquestion" %}
+                {% include "/tools/keyquestion.html" %}
+            {% elif content["type"] == "list" %}
+                {% include "/tools/list.html" %}
+            {% elif content["type"] == "chapter" %}
+                {% include "/tools/chapter.html" %}
+            {% endif %}
+        {% endfor %}
+    </div>
+    
+  </body>
+</html>
