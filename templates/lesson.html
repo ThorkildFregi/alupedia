@@ -12,7 +12,7 @@
   <body>
     {% include "/tools/header.html" %}
 
-    <div class="container-sm p-5 my-5 bg-light">
+    <div class="container-sm p-5 my-5 bg-light position-relative">
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
@@ -48,7 +48,13 @@
                 {% include "/tools/chapter.html" %}
             {% endif %}
         {% endfor %}
-    </div>
+
+        <hr>
+        <br>
+
+        <a href="/ai-function?type=record&data={{ data_link }}">Générer une fiche de révision</a><br>
+        <a href="/ai-function?type=quotes&data={{ data_link }}">Générer une fiche de citation</a><br>
+     </div>
     
   </body>
 </html>

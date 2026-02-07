@@ -69,7 +69,7 @@
         },
         {
             "type": "text",
-            "content": "L'humain s'adapte à son environnement par et grâce à la technique. Constat partagé par les partisans d'une anthropologie positive et par les partsians d'une anthropologie négative."
+            "content": "L'humain s'adapte à son environnement par et grâce à la technique. Constat partagé par les partisans d'une anthropologie positive et par les partisans d'une anthropologie négative."
         },
         {
             "type": "text",
@@ -247,6 +247,87 @@
         {
             "type": "chapter",
             "title": "A - La subordination de la technique à la morale"
+        },
+        {
+            "type": "text",
+            "content": "Aujourd'hui, Il y a un écart entre puissance technique et notre faiblesse morale. La bioéthique n'est pas respectée; on peut prendre l'exemple de la fast fashion et du travail des enfants, ainsi que l'exemple de l'élevage intensif. La question des finalités et des valeurs est une question de compétences morales et politiques."
+        },
+        {
+            "type": "text",
+            "content": "À la fin du mythe de Prométhée, Zeus, ne voulant pas que les humains gagnent un pouvoir divin sans contre-partie, décide de donner aux humains la pudeur et la justice."
+        },
+        {
+            "type": "text",
+            "content": "La justice représente l'usage de la technique bénéfique à tous et collectivement déterminée."
+        },
+        {
+            "type": "text",
+            "content": "La pudeur, elle, est au sens de la réserve. Elle représente la limitation, la modération dans l'utilisation de la technique. L'humain ne doit pas faire preuve d'hybris, de démesure dans lequel l'humain ce croit égale, voire supérieur aux dieux."
+        },
+        {
+            "type": "text",
+            "content": "La conclusion est que la technique doit être subordonner à la morale. Tout ce qui est techniquement faisable ne doit pas nécessairement être réalisé."
+        },
+        {
+            "type": "opposition",
+            "oA_title": "Faisable",
+            "oA_text": "La capacité de faire quelque chose.",
+            "oB_title": "Souhaitable",
+            "oB_text": "La légitimité de faire quelque chose."
+        },
+        {
+            "type": "chapter",
+            "title": "B - L'heuristique de la peur"
+        },
+        {
+            "type": "text",
+            "content": "D'après Hans Jones, une nouvelle éthique est nécessaire aujourd'hui pour faire face au développement technique. Il faut une rupture avec la technique moderne. Les conséquences des inventions et des progèrs techniques sont irréversibles et menacent l'existence des généraations futures, comme par exemple, le nucléaire et ses déchets. On a le droit de menacer se propre existence mais pas celle des autres."
+        },
+        {
+            "type": "text",
+            "content": "Le nouvel impératif doit être de prendre en compte les générations futures dans les principes des ses actions. L'heuristique de la peur permet d'y parvenir. Il faut s'intéresser au conséquences de ses actions; si l'on a peur de ces conséquences, il faut s'abstenir de les réaliser. C'est un principe de précaution. Il faut ainsi, pour Hans Jones, tenir compte uniquement des conséquences négatives. Avant de mettre en place une invention, il faut mettre en balance les conséquences positives et négatives et ne retenir que les conséquences négatives."
+        },
+        {
+            "type": "chapter",
+            "title": "C - Vers un contrat naturel"
+        },
+        {
+            "type": "quote",
+            "author": "Michel Serres",
+            "wikipedia": "https://fr.wikipedia.org/wiki/Michel_Serres",
+            "source": "Le contrat naturel",
+            "text": "Maître et protecteur de la nature"
+        },
+        {
+            "type": "text",
+            "content": "Michel Serres propose d'établir un contrat avec la nature. Cependant, la nature n'est pas un sujet juridique puisqu'elle n'est pas doué de conscience. On se retrouve dans le même cas que les animaux, ne pouvant être des sujets juridiques au sens fort du terme, on a créé des obligations juridiques à leur égard (pas de maltraitance, pas de souffrance). Il faut donc un contrat morale avec la nature. Un contrat de symbiose, de réciprocité, c'est-à-dire que l'on doit restituer une contre-partie à ce que la nature nous offre. Actuellement, les humains sont des parasites de la nature; on pille les ressources naturelles sans rien donner en retour. Des exemples de symbiose sont la reforestation, le composte. Il s'agit bien d'un contrat moral et non d'une symbiose naturelle."
+        },
+        {
+            "type": "text",
+            "content": "Il faut un changement de paradigme moral, dans toutes ses actions l'humain doit se sentir redevable à la nature."
+        },
+        {
+            "type": "text",
+            "content": "Pour Ness, le contrat naturel doit être de l'écologie profonde."
+        },
+        {
+            "type": "opposition",
+            "oA_title": "Ecologie profonde",
+            "oA_text": "Préserver la nature parce qu'il faut respecter la nature.",
+            "oB_title": "Ecologie superficielle",
+            "oB_text": "Il faut respecter la nature uniquement pour préserver les intérêts humains."
+        },
+        {
+            "type": "text",
+            "content": "La nature devient un sujet de droit sans conscience ni volonté mais qui doit-être admirée, contemplée et respectée."
+        },
+        {
+            "type": "act",
+            "title": "Conclusion générale"
+        },
+        {
+            "type": "text",
+            "content": "Face au développement non maîtrisé de la technique, il faut une nouvelle éthique de la limitation. Prémièrement, en prenant en compte les conséquencces de nos actions et deuxièmement, en rendant à la nature le respect s'on lui doit. Le but étant de limiter l'hybris de l'humain et le rappeler au sens de la modération et de la pudeur. Néanmoins, l'humain ne peut renoncer à la technique dont il a besoin pour survivre."
         }
     ]
 }
