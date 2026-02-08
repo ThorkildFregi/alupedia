@@ -46,6 +46,10 @@
                 {% include "/tools/list.html" %}
             {% elif content["type"] == "chapter" %}
                 {% include "/tools/chapter.html" %}
+            {% elif content["type"] == "underchapter" %}
+                {% include "/tools/underchapter.html" %}
+            {% elif content["type"] == "transition" %}
+                {% include "/tools/transition.html" %}
             {% endif %}
         {% endfor %}
 

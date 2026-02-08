@@ -1,0 +1,388 @@
+{
+    "subject": "Philosophie",
+    "title": "La science, la vérité et la raison théorique",
+    "contents": [
+        {
+            "type": "act",
+            "title": "Introduction"
+        },
+        {
+            "type": "text",
+            "content": "La science, du latin \"scire\" = savoir, est une activité par laquelle l'humain cherche à découvrir les propriétées objectives des choses. La science a une prétention à la vérité."
+        },
+        {
+            "type": "opposition",
+            "oA_title": "La vérité logique",
+            "oA_text": "Une cohérence d'un raisonnement avec une validité logique, indépendantes des faits.",
+            "oB_title": "La vérité matérielle",
+            "oB_text": "Ce qui est conforme à la vérité."
+        },
+        {
+            "type": "text",
+            "content": "Les mathématiques se situent dans la vérité logique, quand aux sciences physiques et naturelles, elles se trouvent dans la vérité matérielle."
+        },
+        {
+            "type": "opposition",
+            "oA_title": "La raison théorique",
+            "oA_text": "La faculté qui permet de distinguer le vrai du faux.",
+            "oB_title": "La vérité matérielle",
+            "oB_text": "La faculté qui cherche à définir mes finalités de ses propres actions. C'est de quoi découle le bonheur et la morale."
+        },
+        {
+            "type": "text",
+            "content": "La science, la vérité et la raison sont liées, l'humain utilise sa raison théorique dans la science pour parvenir à la vérité."
+        },
+        {
+            "type": "text",
+            "content": "L'époque moderne signe le triomphe de la science comme modèle de toutes connaissances possibles. Mais la rationalité scientifique doit-elle s'appliquer à tous les domaines de la réalité ? Et la nature du savoir scientifique épuise-t-il la question du sens et de la compréhension du monde ?"
+        },
+        {
+            "type": "text",
+            "content": "Une opposition est faite par Auguste Comte :"
+        },
+        {
+            "type": "opposition",
+            "oA_title": "Comment ?",
+            "oA_text": "Le moyen, cherché par la science.",
+            "oB_title": "Pourquoi ?",
+            "oB_text": "Le sens, cherché par la philosophie et la religion."
+        },
+        {
+            "type": "keyquestion",
+            "content": "Quelles sont les limites de la science ?"
+        },
+        {
+            "type": "list",
+            "opening": "Il y a deux limites principales",
+            "contents": [
+                "Les limites factuelles et descriptives : La science parvient-elle à la vérité absolue ?",
+                "Les limites normatives : La rationalité scientifique doit-elle s'imposer à toutes réalitées ? (Point de vue du droit, faut-il, doit-on, s'en remettre à la science)"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Il ne s'agit pas d'être antiscientiste, en même temps d'apercevoir ses limites, mais aussi, de comprendre sees succès et ses réussites. Néanmoins, il faut apprendre à articuler la science aux autres domaines de l'existence."
+        },
+        {
+            "type": "act",
+            "title": "I - La science parvient-elle à des vérités absolues ?"
+        },
+        {
+            "type": "chapter",
+            "title": "A - La rationnalité scientifique : des moyens efficaces pour parvenir au vrai"
+        },
+        {
+            "type": "underchapter",
+            "title": "1) La démonstration mathématiques"
+        },
+        {
+            "type": "text",
+            "content": "Les mathématiques sont le modèle de sciences exactes. Elles ont le plus haut niveau de certitude grâce à la démonstration."
+        },
+        {
+            "type": "quote",
+            "author": "Aristote",
+            "wikipedia": "https://fr.wikipedia.org/wiki/Aristote",
+            "source": "Seconde analytique, Livre I, chapitre 3",
+            "text": "La démonstration est le mode de raisonnement par lequel certaines choses étant poser, quelque chose d'autres s'en suit nécessairement"
+        },
+        {
+            "type": "text",
+            "content": "La démonstration est donc un enchaînement logique de proposition qui permet de déduire des conclusions de prémices. La démonstration tient sa force de sa nécessité."
+        },
+        {
+            "type": "opposition",
+            "oA_title": "Nécessaire",
+            "oA_text": "Ce qui ne peux pas ne pas être. (Ce qui ne peut qu'être.)",
+            "oB_title": "Contingent",
+            "oB_text": "Ce qui peux ne pas être."
+        },
+        {
+            "type": "text",
+            "content": "La conclusion ne peut pas être autre qu'elle n'est si l'on sait les règles d'inférences logiques. Il y a transfert de certitude des prémisses à la conclusion. De plus, on retoruve une objectivité dans la démonstration."
+        },
+        {
+            "type": "opposition",
+            "oA_title": "Objectif",
+            "oA_text": "Ce qui ne dépend pas des sujets. (universelle)",
+            "oB_title": "Subjectif",
+            "oB_text": "Ce qui dépend des sujets. (varie d'un individu à l'autre)"
+        },
+        {
+            "type": "text",
+            "content": "C'est grâce à la démonstration que les mathématiques se hissent au plus haut niveau de certitude et sert de modèle de toutes sciences. Seulement, les mathématiques ne parlent pas du réel."
+        },
+        {
+            "type": "underchapter",
+            "title": "2) La méthode expérimentale"
+        },
+        {
+            "type": "text",
+            "content": "L'expérience est au centre de la détermination des énoncés théoriques."
+        },
+        {
+            "type": "list",
+            "opening": "Il y a trois moments dans une expérience",
+            "contents": [
+                "L'observation d'un phénomène dont on veut rendre compte",
+                "L'hypothèse théorique",
+                "L'expérience pour vérifier l'hypothèse (expérimentation)"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "L'expérimentation, conçu par la raison, est évidémment différente de l'expérience brute."
+        },
+        {
+            "type": "list",
+            "opening": "On peut prendre l'exemple de la pression athmosphérique",
+            "contents": [
+                "L'oservation se fait par les fontainiers de Florence qui se demandent pourquoi il est impossible de pomper l'eau au-delà de 10.33m de hauteur. À ce moment, on considère que l'eau remontait dans les pompes aspirantes car la nature aurait horreur du vide.",
+                "L'hypothèse est formulée par Torricelli, il explique que c'est à cause de la pression.",
+                "L'expérimentation consiste en un tube à essai remplit de mercure qu'on vient plonger dans un bassin de mercure. La hauteur, en fonction de la densité doit-être de 76cm. Pascal complète l'expérience en ajoutant l'altitude. Une hauteur inférieur peut-être remarqué au sommet de la montagne car la pression est plus grande au pied de la montagne."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Conclusion : Ils prouvent l'existence du vide et de la pression."
+        },
+        {
+            "type": "text",
+            "content": "La science se soumet au contrôle des faits, la raison se soumet au contrôle du réel. Mais la science dépend d'une méthode active qui sollicite l'esprit scientifique. Ce n'est que parce qu'elle est soumise à un protocole expérimentale pensé par la raison que l'expérience est conclusive."
+        },
+        {
+            "type": "chapter",
+            "title": "B - La science ne parvient pas à des vérités absolues"
+        },
+        {
+            "type": "underchapter",
+            "title": "1) Les statuts des fondements de la démonstration"
+        },
+        {
+            "type": "text",
+            "content": "La démonstration dépends des prémices, axiomes, postulats, or ces axiomes ne sont jamais démontrés. Pascal parle d'un colosse aux pieds d'argile. De plus, si on cherchait à démontrer les premiers termes, on ferait face au problème de la régression à l'infini."
+        },
+        {
+            "type": "quote",
+            "author": "Blaise Pascal",
+            "wikipedia": "https://fr.wikipedia.org/wiki/Blaise_Pascal",
+            "source": "De l'esprit géométrique",
+            "text": "Il est évident que les premiers termes que l'on voudrait définir en suposeraient de précédent pour servir à leur explication et que de même les premières propositions qu'on voudrait prouver en supposeraient d'autres qui précédassent et ainsi il est clair qu'on n'arriverait jamais à de premières propositions."
+        },
+        {
+            "type": "list",
+            "opening": "Il y a deux modalitées de la connaissance dans la démonstration",
+            "contents": [
+                "La démonstration en elle-même qui amène à une conclusion",
+                "Les intuitions pour les prémices"
+            ]
+        },
+        {
+            "type": "opposition",
+            "oA_title": "Intuitif",
+            "oA_text": "Ce qui est connu immédiatement.",
+            "oB_title": "Discursif",
+            "oB_text": "Ce qui dépend d'un raisonnement."
+        },
+        {
+            "type": "text",
+            "content": "La certitude des mathématiques est atténuées par le fait qu'elles tiennent pour vrai les intuitions premières, cela reste problématique."
+        },
+        {
+            "type": "underchapter",
+            "title": "2) La science avance par réfutation"
+        },
+        {
+            "type": "text",
+            "content": "Le commencement de la méthode expérimentale est une observation polémique. L'observation polémique remet en question des hypothèses théoriques précédemment admises, on ne parvient pas focément à l'expliquer avec les théorises admises."
+        },
+        {
+            "type": "list",
+            "opening": "Dans le caractère évolutif réformiste de la science, on retrouve deux cas de figures",
+            "contents": [
+                "Les observations contredisent les théories admises. La science se construit sur les ruines de la science antérieur.",
+                "La théorie doit-être réaménagé, réinterprété. Il s'agit de \"sauver les phénomènes\"."
+            ]
+        },
+        {
+            "type": "text",
+            "content": "On peut prendre l'exemple du géocentrisme qui a été prouvé faux et où l'héliocentrisme a été préféré."
+        },
+        {
+            "type": "text",
+            "content": "Selon Popper, les vérités tenuent pour certaine sont uniquement des vérités qui ne sont pas réfutées. Mais la science avance par réfutation ce qui ne peut pas conduire à une certitude absolue de l'ensemble des propositions scientifiques. La vérité absolue, finalité de la science, se retrouve à devenir donc la limite idéale de la scicence."
+        },
+        {
+            "type": "transition",
+            "content": "C'est parce que l'on ne peut pas être certain de posséder une vérité absolue, c'est parce que les vérités scientifiques sont provisoires, que certains auteurs remettent en question la valeur de la science. Feyerbend dit que la science n'est qu'une croyance parmis d'autres. Mais, l'antiscientisme est contestable. En effet, il y a bien une valeur supérieur de la science sur la formation des autres croyances. C'est pourquoi on peut se demander, qu'est-ce qui fonde donc  la supériorité de la démarche scientifique ?"
+        },
+        {
+            "type": "act",
+            "title": "II - L'exigence de fondation rationnelle du discours"
+        },
+        {
+            "type": "chapter",
+            "title": "A - La rationnalité scientifique : des moyens efficaces pour parvenir au vrai"
+        },
+        {
+            "type": "text",
+            "content": "L'opinion est une affirmation en absence de toute formation rationnelle. Pour Bachelard, elle est la traduction des besoins en connaissance. Par ceci, en droit, l'opinion ne peut avoir raison car elle ne se fonde sur rien. Mais, une opinion peut, en fait, avoir raison sans savoir pourquoi."
+        },
+        {
+            "type": "opposition",
+            "oA_title": "En fait",
+            "oA_text": "Ce qui est. L'opinion peut être vraie.",
+            "oB_title": "En droit",
+            "oB_text": "Ce qui doit être. On doit considérer que l'opinion a toujours tort même quand elle énonce une vérité puisqu'elle ne se fonde sur rien."
+        },
+        {
+            "type": "text",
+            "content": "On ne peut pas faire de la science une opinion parmis d'autre puisque l'opinion est indifférente à toute raison qui pourrait la fonder. Selon Bachelard, ce qui distingue la science c'est uniquement la volonté de justifier rationnellement son opinion."
+        },
+        {
+            "type": "text",
+            "content": "Une limite est notable. Dans le documentaire Arte \"La fabrication de l'ignorance\", les lobbys de tabac cherche à démontrer que la cigarette n'est pas à l'origine des cancers, ce qui est faux. Le critère de justification rationnelle des croyances n'est pas suffisant. Elle peut être déterminé par des intérêts politiques ou économiques."
+        },
+        {
+            "type": "chapter",
+            "title": "B - La science comme ethos"
+        },
+        {
+            "type": "text",
+            "content": "Ce qui distingue vraiment la science est son ethos. L'ethos est le mélange d'un'état d'esprit, d'un ensemble de dispositions théoriques et d'un ensemble d'habitude cognitive. L'esprit scientifique va au-delà de la simple volonté de fonder rationnellement le discours."
+        },
+        {
+            "type": "text",
+            "content": "Robert Merton, dans The narrative structure of science, parle de la disposition de l'ethos scientifique. Pour lui, l'ethos scientifique vient du désintérêt, le fait de vouloir de façon désintéressée la vérité. Le savoir est donc une praxis, on connaît pour connaître."
+        },
+        {
+            "type": "text",
+            "content": "Il peut y avoir des intérêts à la connaissance (médecine) mais cela commence toujours par chercher à connaître les propriétés objectives de son objet d'étude. C'est la volonté d'universalité, la volonté de dégager des connaissances qui valent pour tous qui forgent cet esprit d'objectivité, ainsi que le septicisme, douter de tous les énoncés théoriques pour faire progresser la science. Le doute en science est fécond."
+        },
+        {
+            "type": "opposition",
+            "oA_title": "Doute actif",
+            "oA_text": "Volontaire",
+            "oB_title": "Doute passif",
+            "oB_text": "Involontaire"
+        },
+        {
+            "type": "text",
+            "content": "De plus, l'esprit de falsification va aussi dans ce sens, l'acceptation des éléments qui infirment les théories et les hypothèses  que l'on formule permet une remise en question de ses propres théories. La psychanalyse et l'astrologie ne respecte pas ce critère. C'est ces quatres disposition qui forment l'ethos scientifique et explique la supériorité de la science sur toutes les autres formations des croyances."
+        },
+        {
+            "type": "text",
+            "content": "En résumé, l'ethos scientifique est le fait de vouloir le vrai de façon désintéressé et accepter de rentrer dans une démarche cummulative et progressive qui implique que les connaissances puissent être dépassé pour y extraire les erreurs persistantes."
+        },
+        {
+            "type": "transition",
+            "content": "Faut-il néanmoins que cette ethos scientifique s'applique, s'étende à toutes les sphères de l'action humaine ?"
+        },
+        {
+            "type": "act",
+            "title": "III - Les limites normatives de la science"
+        },
+        {
+            "type": "chapter",
+            "title": "A - Faut-il laisser aux sciences le monopole du discours sur l'humain"
+        },
+        {
+            "type": "text",
+            "content": "Fin XIXe, les sciences humaines naissent, l'humain est l'objet d'étude scientifique. La sociologie, l'anthorpologie, la psychologie, l'histoire et l'économie en font partie. On y retrouve une recherche d'objectivité et un recours aux méthodes expérimentales. Elle recherche à formuler des lois objectives du comportements humains."
+        },
+        {
+            "type": "text",
+            "content": "Comme par exemple, Durkheim et son étude du suicide, dans laquelle il observe que les suicides décroissent là où la densité familliale s'accroissent et que les suicides décroissent là où les richesses économiques sont plus importantes ou encore que les suicides s'accroissent là où les crises économiques sévissent. Ainsi, on est déterminé socialement à se suicider. Le suicide est un fait sociale, et n'a donc rien à voir avec un acte de désespoir individuelle."
+        },
+        {
+            "type": "underchapter",
+            "title": "1) Critique sur la scientificité des sciences humaines" 
+        },
+        {
+            "type": "text",
+            "content": "Il y a une prétention à l'objectivité, or l'interprétation est biaisée par la subjectivité du scientifique. Il n'y a aucune différence entre l'objet d'étude et celui qui étudie l'humain"
+        },
+        {
+            "type": "text",
+            "content": "On retrouve aussi une séparation des composantes du comportements humains. Séparé les causes sociales et psychologiques, l'économie sans la sociologie et la psychologie, c'est un problème."
+        },
+        {
+            "type": "text",
+            "content": "Ainsi, la scientificité des sciences humaines est contestables."
+        },
+        {
+            "type": "underchapter",
+            "title": "2) La critique philosophique" 
+        },
+        {
+            "type": "text",
+            "content": "Même si les sciences humaines étaient parfaitement scientifique, il ne faut pas laisser à ces sciences le monopole du discours sur l'humain."
+        },
+        {
+            "type": "text",
+            "content": "Selon Michel Henry, à trop chercher des lois du comportement humain, on en vient à perdre la subjectivité et la signification du comportement humain pour l'humain. La rationnalité scientifique ne peut épuiser notre besoin de compréhension des phénomènes humains. C'est pourquoi il y a besoin de la philosophie pour compléter la rationnalité scientifique par la rationnalité philosophique."
+        },
+        {
+            "type": "quote",
+            "author": "Eric Weil",
+            "wikipedia": "https://fr.wikipedia.org/wiki/%C3%89ric_Weil",
+            "source": "Philosophie et réalité",
+            "text": "Les hommes furent et sont philosophes aussi longtemps qu'ils posent la question du sens de leur vie et de leur monde. Toutes sciences est réduite à la constatation, elle est hors d'état de poser le fait qu'elle découvre la question de sens."
+        },
+        {
+            "type": "text",
+            "content": "Il faut revenir sur la scission entre philosophie et science. Les connaissances scientifiques permettent à l'humain de s'orienter dans ses actions. On en revient à l'introduction, la philosophie cherche le \"Pourquoi ?\" et la science le \"Comment ?\""
+        },
+        {
+            "type": "chapter",
+            "title": "B - Faut-il soumettre aux sciences nos décisions politiques ?"
+        },
+        {
+            "type": "text",
+            "content": "Estund a la volonté de soumettre nos décisions politiques à la science, ce que l'on appelle l'Epistocratie, d'epistémé la connaissance. Les décisions scientifiques sont plus objectives donc plus légitime. La science a plus de chance de discerner de bonnes décisions sur des questions complexes."
+        },
+        {
+            "type": "text",
+            "content": "Ce point de vue est contestable car il introduit de l'inégalité en démocratie. Les opinions ont toutes leur légitimité en politique. Il faut que la décision prise découle d'un consensus majoritaire."
+        },
+        {
+            "type": "text",
+            "content": "En politique, la valeur supérieur de la science est contestable car elle ne prends pas en compte le vécu des citoyens. Estlung parle de \"modestie epistémique\" en démocratie délibératrice. Il faut préférer la majorité à la compétence même si ce n'est pas optimale."
+        },
+        {
+            "type": "chapter",
+            "title": "C - Croyance et le savoir"
+        },
+        {
+            "type": "text",
+            "content": "La science n'est d'aucune utilité en matière de religion. La croyance est un type de vérité particulier. C'est une vérité subjective."
+        },
+        {
+            "type": "opposition",
+            "oA_title": "Vérité subjective",
+            "oA_text": "Vaut pour moi",
+            "oB_title": "Fanatisme",
+            "oB_text": "Une croyance devrait valoir pour tous"
+        },
+        {
+            "type": "text",
+            "content": "Ce n'est pas parce qu'elle n'est pas subjective que cette vérité a une valeur inférieur."
+        },
+        {
+            "type": "list",
+            "opening": "Il y a deux types de connaissances",
+            "contents": [
+                "Celle de la raison, gagné par le raisonnement.",
+                "Celle du coeur, une intuition, une intime conviction, les prémices mathématiques. La preuve et la démonstration sont inutiles."
+            ]
+        },
+        {
+            "type": "act",
+            "title": "Conclusion générale"
+        },
+        {
+            "type": "text",
+            "content": "La science est le meilleur moeyn de parvenir à une connaissance objective de la réalité. L'ethos scientifique est supérieur en matière de connaissance mais cela ne justifie pas que la rationnalité scientifique soit la seule valable. Dans tous les cas, la réflexion scientifique appelle une réflexion sur la valuer de la science et tout en connaissant la supériorité de celle-ci en matière de connaissance, on peut rétablir d'autre rationnalité pertinente comme la raationnalité philosophique et le consensus majoritaire en politique."
+        }
+    ]
+}
