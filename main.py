@@ -13,9 +13,13 @@ model = "mistral-large-latest"
 
 client = Mistral(api_key=api_key)
 
+with open("./data/example_qcm.json", "r") as file:
+    qcm_example = json.load(file)
+
 types = {
     "record": "Génère une fiche de révision en markdown avec ces données, n'écrit pas plus que la fiche, résume ne réécrit pas tout, pas d'ouverture",
-    "quotes": "Génère une fiche avec toutes les citations en markdown avec ces données, n'écrit pas plus que la fiche"
+    "quotes": "Génère une fiche avec toutes les citations en markdown avec ces données, n'écrit pas plus que la fiche",
+    "qcm": f"Génère un qcm dans le même format que celui-ci {qcm_example} avec les données uqe je te donne juste après, n'écrit pas plus que le json, 20 questions"
 }
 
 with open("./data/subjects.json", "r") as file:
@@ -65,14 +69,19 @@ def ai_function():
 
         res = chat_response.choices[0].message.content
 
-        print(res)
+        if type == "qcm":
+            qcm = eval(res[7:len(res) - 3])
 
-        path = "result.pdf"
+            return render_template("qcm.html", subjects=subjects, qcm=qcm["qcm"])
+        elif type == "record" or type == "quotes":
+            path = "result.pdf"
 
-        pdf.add_section(Section(res[11:len(res) - 3], paper_size="A4"))
-        pdf.save(path)
+            pdf.add_section(Section(res[11:len(res) - 3], paper_size="A4"))
+            pdf.save(path)
 
-        return send_file(path, as_attachment=True)
+            return send_file(path, as_attachment=True)
+        else:
+            return redirect(url_for("home"))
     else:
         return redirect(url_for("home"))
 

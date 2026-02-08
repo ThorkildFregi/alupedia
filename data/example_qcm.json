@@ -1,0 +1,62 @@
+{
+  "qcm": {
+    "title": "Exemple de QCM",
+    "description": "Un questionnaire à choix multiples sur un thème donné.",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Quelle est la capitale de la France ?",
+        "type": "unique",
+        "responses": [
+          {
+            "id": 1,
+            "text": "Londres",
+            "validity": false
+          },
+          {
+            "id": 2,
+            "text": "Berlin",
+            "validity": false
+          },
+          {
+            "id": 3,
+            "text": "Paris",
+            "validity": true
+          },
+          {
+            "id": 4,
+            "text": "Madrid",
+            "validity": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Quels sont les océans de la Terre ? (Plusieurs réponses possibles)",
+        "type": "multiple",
+        "responses": [
+          {
+            "id": 1,
+            "text": "Océan Pacifique",
+            "validity": true
+          },
+          {
+            "id": 2,
+            "text": "Océan Atlantique",
+            "validity": true
+          },
+          {
+            "id": 3,
+            "text": "Mer Méditerranée",
+            "validity": false
+          },
+          {
+            "id": 4,
+            "text": "Océan Indien",
+            "validity": true
+          }
+        ]
+      }
+    ]
+  }
+}
