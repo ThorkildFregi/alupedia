@@ -19,7 +19,7 @@ with open("./data/example_qcm.json", "r") as file:
 types = {
     "record": "Génère une fiche de révision en markdown avec ces données, n'écrit pas plus que la fiche, résume ne réécrit pas tout, pas d'ouverture",
     "quotes": "Génère une fiche avec toutes les citations en markdown avec ces données, n'écrit pas plus que la fiche",
-    "qcm": f"Génère un qcm dans le même format que celui-ci {qcm_example} avec les données uqe je te donne juste après, n'écrit pas plus que le json, 20 questions"
+    "qcm": f"Génère un qcm dans le même format que celui-ci {qcm_example} avec les données que je te donne juste après, n'écrit pas plus que le json, 20 questions, utilise LaTex pour les calculs, met 5 questions d'applications si le cours est sur la physique",
 }
 
 with open("./data/subjects.json", "r") as file:
@@ -80,6 +80,8 @@ def ai_function():
             pdf.save(path)
 
             return send_file(path, as_attachment=True)
+        elif type == "exercice":
+            return res
         else:
             return redirect(url_for("home"))
     else:

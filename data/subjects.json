@@ -13,6 +13,16 @@
                     "title": "La science, la vérité et la raison théorique"
                 }
             ]
+        },
+        {
+            "folder": "physique",
+            "title": "Physique",
+            "contents": [
+                {
+                    "file": "mvt_planet.json",
+                    "title": "Mouvements des planètes et des satellites"
+                }
+            ]
         }
     ]
 }

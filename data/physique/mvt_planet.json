@@ -1,0 +1,196 @@
+{
+    "subject": "Physique",
+    "title": "Mouvements des planètes et des satellites",
+    "contents": [
+        {
+            "type": "act",
+            "title": "I - Loi de gravitation universelle"
+        },
+        {
+            "type": "text",
+            "content": "Tous les corps massiques s'attirent mutellement."
+        },
+        {
+            "type": "text",
+            "content": "Deux objets \\(a \\) et \\(b \\), de masse respective \\(m_a \\) et \\(m_b \\) et dont les centres sont séparés d'une distance \\(d \\) exerce l'un sur l'autre des actions mécaniques attractives modélisées par des forces d'attraction gravitationnelle de même intensité."
+        },
+        {
+            "type": "formula",
+            "content": "\\vec{F_{a/b}} = -G\\frac{m_a m_b}{d^2}\\vec{U_{ab}} = -\\vec{F_{b/a}}"
+        },
+        {
+            "type": "text",
+            "content": "\\(\\vec{U_{ab}} \\) est un vecteur unitaire orienté de \\(a \\) vers \\(b \\) et \\(G \\) la constante de gravitation universelle où \\(G = 6,67.10^{-11} {N.m^2.kg^{-2} \\brace m^3.kg^{-1}.s^{-2}} \\)"
+        },
+        {
+            "type": "act",
+            "title": "II - Vecteur accélération et mouvement"
+        },
+        {
+            "type": "text",
+            "content": "Dans le référentiel héliocentrique, et dans le cadre de l'approximation des trajectoires circulaires, une planète de centre \\(P \\) et de masse \\(m \\) tourne autour du soleil de centre \\(S \\) et de masse \\(M \\) selon une orbite circulaire de rayon \\(r \\). Elle n'est soumise qu'à l'action mécanique exercée par le soleil et modélisée par la force gravitationnelle, puisque l'on néglige l'influence d'autres astres, soit trop éloignés, soit de masse négligeable devant celle du soleil."
+        },
+        {
+            "type": "calculation",
+            "context": "D'après la seconde loi de Newton :",
+            "steps": [
+                "\\sum \\vec{F_{ext}} = m \\vec{a}",
+                "\\vec{F_{s/p}} = m \\vec{a}",
+                "G\\frac{m M}{r^2}\\vec{U_{PS}} = m \\vec{a}",
+                "G\\frac{M}{r^2}\\vec{U_{PS}} = \\vec{a}"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "D'où :"
+        },
+        {
+            "type": "formula",
+            "content": "\\vec{a} = G\\frac{M}{r^2}\\vec{U_{PS}}"
+        },
+        {
+            "type": "text",
+            "content": "Plus généralement, une planète ou un satellite tournant autour de son astre attracteur a un vecteur accélération dirigé vers le centre de sa trajectoire circulaire. Comme \\(\\vec{v}.\\vec{a} = 0 \\) sont mouvement est circulaire uniforme."
+        },
+        {
+            "type": "text",
+            "content": "Dans le repère de Frenet, le vecteur accélération s'exprime : \\(\\vec{a} = \\frac{dv}{dt}\\vec{U_t} + \\frac{v^2}{r}\\vec{U_n} \\)"
+        },
+        {
+            "type": "text",
+            "content": "Ici l'accélération tangentielle est nulle : \\( a_t = \\frac{dv}{dt} = 0 \\implies v = C^{\\underline{ste}} \\)"
+        },
+        {
+            "type": "text",
+            "content": "On a :"
+        },
+        {
+            "type": "formula",
+            "content": "a = \\frac{v^2}{r}"
+        },
+        {
+            "type": "text",
+            "content": "Pour un mouvement circulaire uniforme, l'accélération et la vitesse sont relié par cette égalité."
+        },
+        {
+            "type": "act",
+            "title": "III - Vitesse d'une planète ou d'un satellite"
+        },
+        {
+            "type": "calculation",
+            "context": "D'après ce qui précède :",
+            "steps": [
+                "a = \\frac{GM}{r^2} = \\frac{v^2}{r}",
+                "\\frac{GMr}{r^2} = v^2",
+                "\\sqrt{\\frac{GM}{r}} = v"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "La vitesse d'une planète ou d'un satellite sur une orbite circulaire autour d'un astre attracteur est :"
+        },
+        {
+            "type": "formula",
+            "content": "v = \\sqrt{\\frac{GM}{r}}"
+        },
+        {
+            "type": "text",
+            "content": "Elle ne dépend que de la masse \\(M \\) de l'astre attracteur et du rayon \\(r \\) de l'orbite circulaire."
+        },
+        {
+            "type": "act",
+            "title": "IV - Période de révolution"
+        },
+        {
+            "type": "text",
+            "content": "La période de révolution \\(T \\) d'une planète ou d'un satellite est la durée qu'il lui faut pour accomplir un tour complet sur son orbite. Si l'orbite décrit par une planète ou un satellite est un cercle de rayon \\(r \\), la distance parcourue pendant \\(T \\) est la circonférence du cercle : \\(2\\pi r \\)"
+        },
+        {
+            "type": "calculation",
+            "context": "On en déduit :",
+            "steps": [
+                "v = \\sqrt{\\frac{GM}{r}} = \\frac{2\\pi r}{T}",
+                "\\sqrt{\\frac{r}{GM}} = \\frac{T}{2\\pi r}",
+                "2\\pi r\\sqrt{\\frac{r}{GM}} = T",
+                "2\\pi\\sqrt{\\frac{r^3}{GM}} = T"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "On a :"
+        },
+        {
+            "type": "formula",
+            "content": "T = 2\\pi\\sqrt{\\frac{r^3}{GM}}"
+        },
+        {
+            "type": "text",
+            "content": "Elle ne dépend que de la masse \\(M \\) de l'astre attracteur et du rayon \\(r \\) de l'orbite circulaire."
+        },
+        {
+            "type": "act",
+            "title": "V - Loi de Kepler"
+        },
+        {
+            "type": "text",
+            "content": "Au XVIIème siècle, Johannes Kepler (1571-1630) constate que les planètes tournent autour du soleil selon des trajectoires qui ne sont pas parfaitement circulaires et énonce trois lois pour décrire leur mouvement."
+        },
+        {
+            "type": "underchapter",
+            "title": "Première loi de Kepler : la loi des orbites"
+        },
+        {
+            "type": "text",
+            "content": "Dans le référentiel héliocentrique, la trajectoire d'une planète est une ellipse et le centre du Soleil occupe un des deux foyers. On dit que l'orbite est elliptique."
+        },
+        {
+            "type": "text",
+            "content": "Le centre d'une planète \\(P \\) décrit une ellipse de foyers \\(F \\) et \\(F' \\) et à chaque instant \\(PF + PF' = 2a \\), où \\(a \\) est un demi-grand axe."
+        },
+        {
+            "type": "underchapter",
+            "title": "Seconde loi de kepler : la loi des aires"
+        },
+        {
+            "type": "text",
+            "content": "Le segment reliant le soleil à la planète balaye des aires égales pendant des durées égales."
+        },
+        {
+            "type": "text",
+            "content": "La vitesse d'une planète n'est donc pas constante : elle augment lorsque la planète se rapproche dur Soleil et diminue lorsqu'elle s'en éloigne."
+        },
+        {
+            "type": "underchapter",
+            "title": "Troisième loi de kepler"
+        },
+        {
+            "type": "formula",
+            "content": "\\frac{T^2}{a^3} = k"
+        },
+        {
+            "type": "text",
+            "content": "La constante ne dépend que de l'astre attracteur : \\(k = \\frac{4\\pi^2}{GM} \\), avec \\(G \\) constante de gravitation universelle et \\(M \\) masse de l'astre attracteur en kilogramme."
+        },
+        {
+            "type": "act",
+            "title": "VI - De la troisième loi de Kepler à la période"
+        },
+        {
+            "type": "text",
+            "content": "Dans le cas où l'on considère que la trajectoires des planètes et satellites sont des cercles, on peut déterminer leurs périodes de révolution \\(T \\) en remplaçant dans la troisième loi de Kepler le demi-grand axe de l'ellipse par le rayon \\(r \\) de l'orbite circulaire."
+        },
+        {
+            "type": "calculation",
+            "context": "Si \\(a = r \\), la troisième loi de Kepler s'écrit :",
+            "steps": [
+                "\\frac{T^2}{r^3} = \\frac{4\\pi^2}{GM}",
+                "T^2 = \\frac{4\\pi^2 r^3}{GM}",
+                "T = 2\\pi\\sqrt{\\frac{r^3}{GM}}"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "On retrouve bien la relation de \\(T \\) obtenue au IV."
+        }
+    ]
+}
