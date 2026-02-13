@@ -26,10 +26,6 @@ with open("./data/subjects.json", "r") as file:
     subjects = json.load(file)["subjects"]
 
 @app.route("/")
-def root_to_home():
-    return redirect(url_for("home"))
-
-@app.route("/home")
 def home():
     return render_template("home.html", subjects=subjects)
 
