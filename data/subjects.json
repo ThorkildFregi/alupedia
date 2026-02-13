@@ -1,6 +1,16 @@
 {
     "subjects": [
         {
+            "folder": "math",
+            "title": "Mathématiques",
+            "contents": [
+                {
+                    "file": "complexe.json",
+                    "title": "Les nombres complexes"
+                }
+            ]
+        },
+        {
             "folder": "philo",
             "title": "Philosophie",
             "contents": [

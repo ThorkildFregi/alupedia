@@ -1,0 +1,16 @@
+<div class="card text-bg-primary">
+  <div class="card-header">Définition</div>
+  <div class="card-body">
+    {% set content_list = content["content"].split(" ") %}
+    <p class="card-text">
+      {% for item in content_list %}
+        {% if item == "\n" %}
+          <br>
+        {% else %}
+          {{ item }}
+        {% endif %}
+      {% endfor %}
+    </p>
+  </div>
+</div>
+<br>

@@ -1,4 +1,4 @@
-from flask import Flask, url_for, redirect, render_template, request, send_file, after_this_request
+from flask import Flask, url_for, redirect, render_template, request, send_file
 from markdown_pdf import MarkdownPdf, Section
 from mistralai import Mistral
 import json
@@ -19,7 +19,7 @@ with open("./data/example_qcm.json", "r") as file:
 types = {
     "record": "Génère une fiche de révision en markdown avec ces données, n'écrit pas plus que la fiche, résume ne réécrit pas tout, pas d'ouverture",
     "quotes": "Génère une fiche avec toutes les citations en markdown avec ces données, n'écrit pas plus que la fiche",
-    "qcm": f"Génère un qcm dans le même format que celui-ci {qcm_example} avec les données que je te donne juste après, n'écrit pas plus que le json, 20 questions, utilise LaTex pour les calculs, met 5 questions d'applications si le cours est sur la physique",
+    "qcm": f"Génère un qcm dans le même format que celui-ci {qcm_example} avec les données que je te donne juste après, n'écrit pas plus que le json, 20 questions, utilise LaTex pour les calculs, met 5 questions d'applications si le cours est sur la physique ou les mathématiques",
 }
 
 with open("./data/subjects.json", "r") as file:

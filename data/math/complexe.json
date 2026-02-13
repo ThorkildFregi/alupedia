@@ -1,0 +1,110 @@
+{
+    "subject": "Mathématiques",
+    "title": "Les nombres complexes",
+    "contents": [
+        {
+            "type": "act",
+            "title": "I - Définition et forme algébrique"
+        },
+        {
+            "type": "chapter",
+            "title": "1) Définition"
+        },
+        {
+            "type": "math_definition",
+            "content": "On appelle ensemble des nombres complexes et l'on note \\( \\mathbb{C} \\) l'ensemble \\( \\mathbb{R}^2 \\) muni des opérations suivantes : \n Pour \\( (x;y;x';y')\\in \\mathbb{R}^2 : \\) \n \\( (x;y) + (x';y') = (x + x'; y + y') \\) \n \\( (x;y)(x';y') = (xx' - yy'; xy' + x'y) \\)"
+        },
+        {
+            "type": "math_exemple",
+            "content": "Calculer : \n a) \\( (1;2)*(3;-4) = (11;2) \\) \n b) \\( (2;0)*(-4;0) = (-8;0) \\) \n a) \\( (0;1)*(0;1) = (-1;0) \\)"
+        },
+        {
+            "type": "math_comment",
+            "content": "b) nous permet d'assimiler le nombre \\( (x;0) \\) au réel \\( x \\) car \\( (x;0)*(y;0) = (xy;0) \\) \n \\( \\rightarrow \\) On retrouve la multiplication des réels ! \n c) se lit alors \\( (0;1)^2 = (-1;0) = -1 \\)"
+        },
+        {
+            "type": "math_definition",
+            "content": "On pose alors \\( i = (0;1) \\) et on a \\( i^2 = -1 \\)"
+        },
+        {
+            "type": "math_dem",
+            "content": "Ainsi : \n \\( \\begin{align*} (x;y) &= (x;0) + (0;y) \\\\ &= x(1;0) + y(0;1) \\end{align*} \\) \n on pose \\( (1;0) = 1 \\) et on a : \n \\( \\begin{align*} (x;y) &= x*1 + y*i \\\\ &= x + iy \\end{align*} \\) (forme algébrique)"
+        },
+        {
+            "type": "math_pt",
+            "content": "Tout complexe \\( z \\) s'écrit de manière unique, avec \\( (x;y)\\in \\mathbb{R}^2 \\) : \n $$ z = x + iy $$ \n C'est la forme algébrique de \\( z \\). \n \\( x \\) est la partie réelle de \\( z \\) notée \\( Re(z) \\) \n \\( y \\) est la partie imaginaire de \\( z \\) notée \\( Im(z) \\)"
+        },
+        {
+            "type": "math_exemple",
+            "content": "\\( z = (5;9) = 5 + 9i {Re(z) = 5 \\brace Im(z) = 9} \\)"
+        },
+        {
+            "type": "chapter",
+            "title": "2) Propriétés algébriques"
+        },
+        {
+            "type": "text",
+            "content": "En un mot : ce sont les mêmes que celles de \\( \\mathbb{R} \\) avec en plus \\( i^2 = -1 \\)"
+        },
+        {
+            "type": "math_exemple",
+            "content": "Ecrire sous forme algébrique : \n \\( \\begin{align*} z_1 &= (2-3i)(5-2i) \\\\ &= 10 - 4i - 15i - 6 \\\\ &= 4 - 19i \\end{align*} \\) \n \n \\( \\begin{align*} z_2 &= (1-2i)^2 -3i+4 \\\\ &= 1-4i-1-3i+4 \\\\ &= 4-7i \\end{align*} \\)"
+        },
+        {
+            "type": "math_pt",
+            "content": "Plus précisément : \n Dans \\( \\mathbb{C} \\), \\( * \\) et \\( + \\) sont : \n - commutatives, associatives : \n \\( a+b = b+a \\) \\( (a+b)+c = a + (b+c) \\) \n \\( a(bc) = (ab)c \\) \\( ab = ba \\) \n - \\( * \\) est distributive par rapport à \\( + \\) : \n \\( a(b+c) = ab + ac \\) \n - \\( 0 \\) est l'élément neutre de \\( + \\) \n \\( 1 \\) est l'élément neutre de \\( * \\) \n - \\( \\forall z\\in \\mathbb{C} \\), \\( \\exists -z \\) \n - \\( \\forall z\\in \\mathbb{C^*} \\) a un inverse"
+        },
+        {
+            "type": "text",
+            "content": "On utilise un lemme."
+        },
+        {
+            "type": "math_definition",
+            "content": "\\( \\forall (x;y) \\in \\mathbb{C} \\) : \n \\( (x + iy)(x - iy) = x^2 + y^2 \\)"
+        },
+        {
+            "type": "math_dem",
+            "content": "\\( \\begin{align*} (x + iy)(x - iy) &= x^2 - iyx + iyx - i^2y^2 \\\\ &= x^2 + y^2 \\end{align*} \\)"
+        },
+        {
+            "type": "text",
+            "content": "On ne démontre que le dernier point."
+        },
+        {
+            "type": "math_dem",
+            "content": "Soit \\( z \\in \\mathbb{C^*} \\) : \\( z = x + iy \\), \\( (x;y) \\in \\mathbb{R^2} \\) \n \\( \\begin{align*} (x + iy)(x - iy) &= x^2 + y^2 \\\\ (x + iy)\\frac{x-iy}{x^2+y^2} &= 1 \\end{align*} \\) \n On pose \\( \\frac{1}{z} = \\frac{x-iy}{x^2+y^2} \\) et on a \\( z*\\frac{1}{z} = 1 \\)"
+        },
+        {
+            "type": "math_comment",
+            "content": "On peut maintenant diviser deux complexes : \\( \\frac{z}{z'} = z * \\frac{1}{z'} \\)"
+        },
+        {
+            "type": "math_exemple",
+            "content": "Calcul pratique de \\( \\frac{z}{z'} \\) \n \\( \\begin{align*} \\frac{2-i}{3+4i} &= \\frac{(2-i)(3-4i)}{(3+4i)(3-4i)} \\\\ &= \\frac{6-3i-8i-4}{3^2+4^2} \\\\ &= \\frac{2-11i}{25} \\end{align*} \\)"
+        },
+        {
+            "type": "chapter",
+            "title": "3) Complexe conjugué"
+        },
+        {
+            "type": "math_definition",
+            "content": "Soit \\( z \\in \\mathbb{C} \\) avec \\( z = x +iy \\), \\( (x;y)\\in \\mathbb{R^2} \\) \n Le conjugué de \\( z \\) notée \\( \\overline{z} \\) est \\( \\overline{z} = x - iy \\)"
+        },
+        {
+            "type": "math_pt",
+            "content": "1) \\( z\\overline{z} = x^2 + y^2 \\) \n 2) \\( \\overline{\\overline{z}} = z \\) \n 3) \\( z + \\overline{z} = 2Re(z) \\) \n donc \\( z \\in i\\mathbb{R} \\iff z + \\overline{z} = 0  \\iff z = -\\overline{z} \\) \n 4) \\( z - \\overline{z} = 2iIm(z) \\) \n donc \\( z \\in \\mathbb{R} \\iff z - \\overline{z} = 0  \\iff z = \\overline{z} \\)"
+        },
+        {
+            "type": "math_dem",
+            "content": "Evident..."
+        },
+        {
+            "type": "math_pt",
+            "content": "\\( (z;z')\\in \\mathbb{C^2} \\) \n 1) \\( \\overline{z + z'} = \\overline{z} + \\overline{z'} \\) \n 2) \\( \\overline{zz'} = \\overline{z} * \\overline{z'} \\) \n 3) \\( \\overline{\\frac{z}{z'}} = \\frac{\\overline{z}}{\\overline{z'}} \\) \n 4) \\( \\overline{\\frac{1}{z}} = \\frac{1}{\\overline{z}} \\) \n 5) \\( \\overline{z^n} = \\overline{z}^n \\)"
+        },
+        {
+            "type": "math_dem",
+            "content": "\\( z = x + iy \\) \\( z' = x' + iy' \\) avec \\( (x;y;x';y')\\in \\mathbb{R^4} \\)  \n \n 1) \n \\( \\begin{align*} \\overline{z + z'} &= \\overline{x+iy+x'+iy'} \\\\ &= x-iy+x'-iy' \\\\ &= \\overline{x+iy} + \\overline{x'+iy'} \\\\ &= \\overline{z} + \\overline{z'} \\end{align*} \\) \n \n 2) \n \\( \\begin{align*} \\overline{zz'} &= \\overline{(x+iy)(x'+iy')} \\\\ &= \\overline{xx' + ixy' + iyx' - yy'} \\\\ &= xx' - ixy' - iyx' - yy' \\end{align*} \\) \n Or : \n \\( (x-iy)(x'-iy') = xx' - ixy' - iyx' - yy' \\) \n Donc : \n \\( \\begin{align*} \\overline{zz'} &= (x-iy)(x'-iy') \\\\ &= \\overline{(x+iy)}\\overline{(x'+iy')} \\\\ &= \\overline{z} * \\overline{z'} \\end{align*} \\) \n \n 4) \n \\( \\begin{align*} z*\\frac{1}{z} &= 1 \\\\ \\overline{z * \\frac{1}{z}} &= \\overline{1} \\\\ \\overline{z} * \\overline{\\frac{1}{z}} &= 1 \\\\ \\overline{\\frac{1}{z}} &= \\frac{1}{\\overline{z}} \\end{align*} \\) \n \n 5) Récurrence sur n..."
+        }
+    ]
+}

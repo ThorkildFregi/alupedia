@@ -54,8 +54,16 @@
                 {% include "/tools/transition.html" %}
             {% elif content["type"] == "formula" %}
                 {% include "/tools/formula.html" %}
-            {% elif content["type"] == "calculation" %}
-                {% include "/tools/calculation.html" %}
+            {% elif content["type"] == "math_definition" %}
+                {% include "/tools/math_definition.html" %}
+            {% elif content["type"] == "math_exemple" %}
+                {% include "/tools/math_exemple.html" %}
+            {% elif content["type"] == "math_comment" %}
+                {% include "/tools/math_comment.html" %}
+            {% elif content["type"] == "math_dem" %}
+                {% include "/tools/math_dem.html" %}
+            {% elif content["type"] == "math_pt" %}
+                {% include "/tools/math_pt.html" %}
             {% endif %}
         {% endfor %}
 
