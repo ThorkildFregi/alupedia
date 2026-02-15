@@ -105,6 +105,150 @@
         {
             "type": "math_dem",
             "content": "\\( z = x + iy \\) \\( z' = x' + iy' \\) avec \\( (x;y;x';y')\\in \\mathbb{R^4} \\)  \n \n 1) \n \\( \\begin{align*} \\overline{z + z'} &= \\overline{x+iy+x'+iy'} \\\\ &= x-iy+x'-iy' \\\\ &= \\overline{x+iy} + \\overline{x'+iy'} \\\\ &= \\overline{z} + \\overline{z'} \\end{align*} \\) \n \n 2) \n \\( \\begin{align*} \\overline{zz'} &= \\overline{(x+iy)(x'+iy')} \\\\ &= \\overline{xx' + ixy' + iyx' - yy'} \\\\ &= xx' - ixy' - iyx' - yy' \\end{align*} \\) \n Or : \n \\( (x-iy)(x'-iy') = xx' - ixy' - iyx' - yy' \\) \n Donc : \n \\( \\begin{align*} \\overline{zz'} &= (x-iy)(x'-iy') \\\\ &= \\overline{(x+iy)}\\overline{(x'+iy')} \\\\ &= \\overline{z} * \\overline{z'} \\end{align*} \\) \n \n 4) \n \\( \\begin{align*} z*\\frac{1}{z} &= 1 \\\\ \\overline{z * \\frac{1}{z}} &= \\overline{1} \\\\ \\overline{z} * \\overline{\\frac{1}{z}} &= 1 \\\\ \\overline{\\frac{1}{z}} &= \\frac{1}{\\overline{z}} \\end{align*} \\) \n \n 5) Récurrence sur n..."
+        },
+        {
+            "type": "act",
+            "title": "II - Equations polynomiales"
+        },
+        {
+            "type": "chapter",
+            "title": "1) Premier degré"
+        },
+        {
+            "type": "text",
+            "content": "\\( \\rightarrow \\) Comme dans \\( \\mathbb{R} \\), on isole \\( z \\) et il y a une seule solution."
+        },
+        {
+            "type": "chapter",
+            "title": "2) Second degré"
+        },
+        {
+            "type": "text",
+            "content": "On reprend l'équation avec \\( (a;b;c) \\in \\mathbb{R^*}*\\mathbb{R^2} \\) : \n \\( \\begin{align*} az^2 + bz + c &= 0 \\\\ a(z^2+\\frac{b}{a}z + \\frac{c}{a}) &= 0 \\\\ a((z+\\frac{b}{2a})^2 - \\frac{b^2}{4a^2} z + \\frac{4ac}{4a^2}) &= 0 \\end{align*} \\) \n \n On pose \\( \\Delta = b^2 - 4ac \\) \n \\( a((z+\\frac{b}{2a})^2 - \\frac{\\Delta}{4a^2}) = 0 \\) \n \n Si \\( \\Delta \\ge 0 \\) voir cours de Première. \n \n Si \\( \\Delta < 0 \\) : \\( \\Delta = -|\\Delta| \\) \n \\( \\begin{align*} a(z^2+\\frac{b}{a}z + \\frac{c}{a}) &= 0 \\\\ a((z+\\frac{b}{2a})^2 - \\frac{b^2}{4a^2} z + \\frac{4ac}{4a^2}) &= 0 \\end{align*} \\) \n \n On pose \\( \\Delta = b^2 - 4ac \\) \n \\( \\begin{align*} a((z+\\frac{b}{2a})^2 - \\frac{\\Delta}{4a^2}) &= 0 \\\\ a(z + \\frac{b}{2a} -i\\frac{\\sqrt{|\\Delta|}}{2a})(z + \\frac{b}{2a} + i\\frac{\\sqrt{|\\Delta|}}{2a}) &= 0 \\end{align*} \\)"
+        },
+        {
+            "type": "math_definition",
+            "content": "On pose \\( \\Delta = b^2 - 4ac \\) \n Si \\( \\Delta < 0 \\) : \n \\( z = \\frac{-b+i\\sqrt{|\\Delta|}}{2a} \\) ou \\( z = \\frac{-b-i\\sqrt{|\\Delta|}}{2a} \\) \n Il y a deux solutions complexes conjuguées."
+        },
+        {
+            "type": "math_exemple",
+            "content": "\\( z^2 - 4z +11 =0 \\) \n \n \\( \\begin{align*} \\Delta &= (-4)^2 - 4 *1 *11 \\\\ &= 16 -44 \\\\ &= -28 \\end{align*} \\) \n \n \\( \\begin{align*} z_1 &= \\frac{4+i\\sqrt{28}}{2*1} \\\\ &= 2 + i\\sqrt{7} \\end{align*} \\) \n \n \\( z_2 = 2 - i\\sqrt{7} \\)"
+        },
+        {
+            "type": "keyquestion",
+            "content": "Comment faire si les coefficients sont complexes ?"
+        },
+        {
+            "type": "text",
+            "content": "\\( \\Delta \\) ne fonctionne pas (cette année...) mais les méthodes vu en Première si !"
+        },
+        {
+            "type": "math_pt",
+            "content": "\\( \\begin{align*} z^2 + bz + c &= (z - z_0)(z - z_1) \\\\ &= z^2 - (z_0 + z_1)z + z_0z_1 \\end{align*} \\) \n On a : \n Somme : \\( -b = z_0 + z_1 = S \\) \n Produit : \\( c = z_0z_1 = P \\)"
+        },
+        {
+            "type": "math_exemple",
+            "content": "\\( z^2 - (3+2i)z + 6i = 0 \\) \n Ici : \n \\( 3+2i = 3+2i \\) \n \\( 3*2i = 6i \\) \n Les solutions sont donc \\( 3 \\) et \\( 2i \\)."
+        },
+        {
+            "type": "text",
+            "content": "On peut aussi utiliser les identités remarquables ou trouver un racine évidente et résoudre."
+        },
+        {
+            "type": "chapter",
+            "title": "3) Degrés supérieurs"
+        },
+        {
+            "type": "math_definition",
+            "content": "Une fonction polynôme de degré \\( n \\), où \\( n\\in \\mathbb{N} \\), est une fonction \\( f: \\mathbb{C} \\rightarrow \\mathbb{C} \\) tel que : \n \n $$ f(z) = \\displaystyle\\sum_{k=0}^\\infty a_k z^k $$"
+        },
+        {
+            "type": "math_exemple",
+            "content": "\\( f(z) = 2iz^3 - 2z + 3i \\) \n \n \\( \\begin{align*} \\rightarrow d°3 : a_3 &= 2i \\\\ a_2 &= 0 \\\\ a_1 &= -2 \\\\ a_0 &= 3i \\end{align*} \\)"
+        },
+        {
+            "type": "math_pt",
+            "content": "Soit \\( P \\) un polynôme complexe de degré \\( n \\ge 1 \\) \n On dit que \\( a \\) est racine de \\( P \\), si \\( P(a) = 0 \\). \n Alors si \\( a \\) est racine de \\( P \\), on peut écrire : \n $$ P(z) = (z - a)Q(z) $$ où \\( Q \\) est polynôme de degré \\( n -1 \\)"
+        },
+        {
+            "type": "text",
+            "content": "On utilise un lemme."
+        },
+        {
+            "type": "math_pt",
+            "content": "Egalité de Bernoulli \n \\( \\begin{align*} z^n-a^n &= (z-a)\\displaystyle\\sum_{k=0}^{n-1} a^k z^{n-1-k} \\end{align*} \\)" 
+        },
+        {
+            "type": "math_dem",
+            "content": "\\( \\begin{align*} (z-a)\\displaystyle\\sum_{k=0}^{n-1} a^k z^{n-1-k} &= z\\displaystyle\\sum_{k=0}^{n-1} a^k z^{n-1-k} - a\\displaystyle\\sum_{k=0}^{n-1} a^k z^{n-1-k} \\\\ &= \\displaystyle\\sum_{k=0}^{n-1} a^k z^{n-k} - \\displaystyle\\sum_{k=0}^{n-1} a^{k + 1} z^{n-1-k} \\\\ &= \\displaystyle\\sum_{k=0}^{n-1} a^k z^{n-k} - \\displaystyle\\sum_{k=0}^{n} a^k z^{n-k} \\\\ &= z^n - a^n \\end{align*} \\)"
+        },
+        {
+            "type": "text",
+            "content": "On peut maintenant démontrer la propriété."
+        },
+        {
+            "type": "math_dem",
+            "content": "\\( P(z) = \\displaystyle\\sum_{k=0}^{n} a_k z^k \\) \n \n On suppose que \\( P(a) = 0 \\) \n \\( \\begin{align*} P(z) &= P(z) - P(a) \\\\ &= \\displaystyle\\sum_{k=0}^{n} a_k z^k - \\displaystyle\\sum_{k=0}^{n} a_k a^k \\\\ &= \\displaystyle\\sum_{k=1}^{n} a_k (z^k - a^k) \\\\ &= \\displaystyle\\sum_{k=0}^{n} a_k ((z-a) \\displaystyle\\sum_{k'=0}^{k-1} a^{k'} z^{k-1-k'}) \\\\ &= (z-a)\\displaystyle\\sum_{k=0}^{n} a_k (\\displaystyle\\sum_{k'=0}^{k-1} a^{k'} z^{k-1-k'}) \\\\ &= (z-a)Q(z) \\end{align*} \\) \n Q est bien un polynôme de d° \\( n -1 \\)"
+        },
+        {
+            "type": "act",
+            "title": "III - Représentation géométrique"
+        },
+        {
+            "type": "math_definition",
+            "content": "À tout point \\( M(x;y) \\) du plan reperé on associe le complexe \\( z = x+iy \\) appelé affixe de \\( M \\). On écrit \\( M(z) \\)"
+        },
+        {
+            "type": "math_exemple",
+            "content": "\\( M(2i) \\iff M(0;2) \\) \n \\( M(1-3i) \\iff M(1;-3) \\)"
+        },
+        {
+            "type": "math_pt",
+            "content": "Soit \\( A(z_a) \\); \\( B(z_b) \\) et \\( I \\) le milieu de \\( [AB] \\) \n Alors : \\( \\vec{AB}(z_b - z_a) \\) et \\( I(\\frac{z_a + z_b}{2}) \\)"
+        },
+        {
+            "type": "act",
+            "title": "IV - Rappels et compléments trigonométrie"
+        },
+        {
+            "type": "chapter",
+            "title": "1) Rappels"
+        },
+        {
+            "type": "math_pt",
+            "content": "Mesures d'angles de vecteurs \n 1) \\( (\\vec{u},\\vec{v}) = -(\\vec{v},\\vec{u}) \\) \n 2) Relation de Chasles : \\( (\\vec{u},\\vec{v}) + (\\vec{v},\\vec{w}) = (\\vec{u},\\vec{w}) \\) \n 3) Si \\( k \\) et \\( k' \\) ont le même signe : \\( (k\\vec{u},k'\\vec{v}) = (\\vec{u},\\vec{v}) \\) \n 4) Si \\( k \\) et \\( k' \\) ont un signe différent : \\( (k\\vec{u},k'\\vec{v}) = \\pi + (\\vec{u},\\vec{v}) \\) \n \n Symétries \n 1) \\( \\cos(-x) = \\cos x \\) et \\( \\sin(-x) = -\\sin x \\) \n 2) \\( \\cos(\\pi - x) = - \\cos x \\) et \\( \\sin(\\pi - x) = \\sin x \\) \n 3) \\( \\cos(\\pi + x) = - \\cos x \\) et \\( \\sin(\\pi + x) = - \\sin x \\) \n 4) \\( \\cos(\\frac{\\pi}{2} - x) = \\sin x \\) et \\( \\sin(\\frac{\\pi}{2} - x) = \\cos x \\) \n 5) 4) \\( \\cos(\\frac{\\pi}{2} + x) = - \\sin x \\) et \\( \\sin(\\frac{\\pi}{2} + x) = \\cos x \\) \n \n Valeurs remarquables \n \\( \\cos\\frac{\\pi}{3} = \\frac{1}{2} \\) \n \\( \\sin\\frac{\\pi}{3} = \\frac{\\sqrt{3}}{2} \\) \n \\( \\sin\\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2} \\) \n \\( \\sin\\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2} \\) \n \\( \\cos\\frac{\\pi}{6} = \\frac{\\sqrt{3}}{2} \\) \n \\( \\sin\\frac{\\pi}{6} = \\frac{1}{2} \\)"
+        },
+        {
+            "type": "chapter",
+            "title": "2) Formules d'additions de sinus et cosinus"
+        },
+        {
+            "type": "math_pt",
+            "content": "\\( (a;b) \\in \\mathbb{R^2} \\) \n \\( \\cos(a+b) = \\cos a \\cos b - \\sin a \\sin b \\) \n \\( \\cos(a-b) = \\cos a \\cos b + \\sin a \\sin b \\) \n \\( \\sin(a+b) = \\sin a \\cos b + \\cos a \\sin b \\) \n \\( \\sin(a-b) = \\sin a \\cos b - \\cos a \\sin b \\)"
+        },
+        {
+            "type": "math_dem",
+            "content": "Dans un ROND, soit \\( A(\\cos a; \\sin a) \\) et \\( B(\\cos b; \\sin b) \\) sont sur un cercle trigo de centre \\( O \\). \n On calcule le produit scalaire \\( \\vec{OA}.\\vec{OB} \\) de deux manières différentes : \n \\( \\begin{align*} \\vec{OA}.\\vec{OB} &= OA * OB * \\cos(\\vec{OA},\\vec{OB}) \\\\ &= cos(a - b) \\end{align*} \\) \n \n \\( \\vec{OA}.\\vec{OB} = \\cos a \\cos b + \\sin a \\sin b \\) \n \n On obtient donc : \\( \\cos(a-b) = \\cos a \\cos b + \\sin a \\sin b \\) \n \n \\( \\begin{align*} \\cos(a+b) &= \\cos(a - (-b)) \\\\ &= \\cos a \\cos(-b) + \\sin a \\sin(-b) \\\\ &= \\cos a \\cos b - \\sin a \\sin b \\end{align*} \\) \n \n \\( \\begin{align*} \\sin(a+b) &= \\cos(\\frac{\\pi}{2} - (a+b)) \\\\ &= \\cos(\\frac{\\pi}{2} - a -b) \\\\ &= \\cos(\\frac{\\pi}{2} - a) \\cos b + \\sin(\\frac{\\pi}{2} - a) \\sin b \\\\ &= \\sin a \\cos b + \\cos a \\sin b \\end{align*} \\) \n \n \\( \\begin{align*} \\sin(a-b) &= \\sin(a + (-b)) \\\\ &= \\sin a \\cos(-b) + \\cos \\sin(-b) \\\\ &= \\sin a \\cos b - \\cos a \\sin b \\end{align*} \\)"
+        },
+        {
+            "type": "math_exemple",
+            "content": "Calculer la valeur exacte : \n \\( \\begin{align*} \\cos(\\frac{\\pi}{12}) &= \\cos(\\frac{\\pi}{3} - \\frac{\\pi}{4}) \\\\ &= \\cos\\frac{\\pi}{3} \\cos\\frac{\\pi}{4} + \\sin\\frac{\\pi}{3} \\sin\\frac{\\pi}{4} \\\\ &= \\frac{1}{2}*\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{3}}{2}*\\frac{\\sqrt{2}}{2} \\\\ &= \\frac{\\sqrt{2} + \\sqrt{6}}{4} \\end{align*} \\)"
+        },
+        {
+            "type": "act",
+            "title": "V - Module et argument"
+        },
+        {
+            "type": "chapter",
+            "title": "1) Définition"
+        },
+        {
+            "type": "text",
+            "content": "\\( \\mathbb{C} \\) est muni d'un ROND \\( (0;\\vec{i};\\vec{j}) \\)"
+        },
+        {
+            "type": "math_definition",
+            "content": "Soit \\( z \\in \\mathbb{C} \\) et \\( M(z) \\) \n \n 1) Le modulo de \\( z \\) est noté \\( |z| \\) est défini par \\( |z| = OM \\) \n \\( |z| = \\sqrt{x^2+y^2} \\) où \\( x = Re(z) \\) et \\( y = Im(z) \\) \n 2) Si \\( z \\not = 0 \\) un argument de \\( z \\), noté \\( arg(z) \\) est une mesure de l'angle \\( (\\vec{i},\\vec{OM}) \\). L'argument principal de \\( z \\) noté \\( Arg(z) \\) est la mesure de cet angle compris entre \\( [-\\pi;\\pi] \\). \n \\( \\cos\\Theta = \\frac{x}{|z|} \\) et \\( \\sin\\Theta = \\frac{y}{|z|} \\) où \\( x = Re(z) \\) et \\( y = Im(z) \\)"
         }
     ]
 }
