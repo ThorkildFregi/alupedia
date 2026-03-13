@@ -36,7 +36,7 @@
         },
         {
             "type": "math_exemple",
-            "content": "\\( z = (5;9) = 5 + 9i {Re(z) = 5 \\brace Im(z) = 9} \\)"
+            "content": "\\( z = (5;9) = 5 + 9i \\begin{cases} Re(z) = 5 \\\\ Im(z) = 9 \\end{cases} \\)"
         },
         {
             "type": "chapter",

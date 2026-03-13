@@ -31,6 +31,10 @@
                 {
                     "file": "mvt_planet.json",
                     "title": "Mouvements des planètes et des satellites"
+                },
+                {
+                    "file": "principe_meca.json",
+                    "title": "Principe de la mécanique"
                 }
             ]
         }

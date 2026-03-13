@@ -1,0 +1,221 @@
+{
+    "subject": "Physique",
+    "title": "Principes de la mécanique",
+    "contents": [
+        {
+            "type": "act",
+            "title": "I - Référentiel d'étude"
+        },
+        {
+            "type": "text",
+            "content": "Le mouvement d'un objet ponctuel est caractérisé par sa trajectoire et sa vitesse par rapport à un solide de référence appelé référentiel. Ce dernier est muni d'un repère et d'une échelle de temps."
+        },
+        {
+            "type": "chapter",
+            "title": "1) Référentiels usuels"
+        },
+        {
+            "type": "list",
+            "opening": "Les différents référentiels usuels sont ",
+            "contents": [
+                "Le référentiel terrestre : construit à partir de n'importe quel solide de référence lié à la Terre. Utilisé pour l'étude des mouvements sur Terre ou à son voisinage proche.",
+                "Le référentiel géocentrique : son solide de référence est défini par le centre de la Terre et trois axes dirigés vers des étoiles lointaines considérées comme fixes. Utilisé pour les mouvements des satellites tournant autour de la Terre.",
+                "Le référentiel héliocentrique : son solide de référence est défini par le centre du Soleil et trois axes dirigés vers des étoiles lointaines fixes. Utilisé pour l'étude du mouvement des planètes et de tout objet dans le système solaire."
+            ]
+        },
+        {
+            "type": "chapter",
+            "title": "2) Référentiel galiléen"
+        },
+        {
+            "type": "list",
+            "opening": "Par définition, un référentiel est dit galiléen si le principe d'inertie (1ère loi de Newton) est vérifié dans ce référentiel",
+            "contents": [
+                "Le référentiel héliocentrique est considéré comme galiléen.",
+                "Le référentiel géocentrique est galiléen si l'étude ne dépasse pas quelques heures.",
+                "Le référentiel terrestre est galiléen si l'étude ne dépasse pas quelques minutes."
+            ]
+        },
+        {
+            "type": "chapter",
+            "title": "3) Repères"
+        },
+        {
+            "type": "underchapter",
+            "title": "a) Repère cartésien"
+        },
+        {
+            "type": "text",
+            "content": "Repère le plus courant. Sous la forme \\( (O; \\vec{i}, \\vec{j}, \\vec{k}) \\) : a pour origine \\( O \\) fixe et pour vecteurs unitaires \\(\\vec{i}\\), \\(\\vec{j}\\), \\( \\vec{k} \\) constants."
+        },
+        {
+            "type": "underchapter",
+            "title": "b) Repère de Frenet"
+        },
+        {
+            "type": "text",
+            "content": "Repère surtout utilisé dans les mouvements circulaires (voir chapitre Mouvement des planètes et des satellites). Ce repère a pour origine le point en mouvement. Ses vecteurs unitaires sont \\(\\vec{u_t}\\), tangent à la trajectoire et dans le sens du mouvement, et \\(\\vec{u_n}\\) perpendiculaire à \\(\\vec{u_t}\\) et vers l'intérieur de la trajectoire."
+        },
+        {
+            "type": "act",
+            "title": "II - Cinématique"
+        },
+        {
+            "type": "chapter",
+            "title": "1) Vecteur position"
+        },
+        {
+            "type": "text",
+            "content": "Le vecteur position \\( \\vec{OG}(t) \\) a pour coordonnées : \n \\( \\vec{OG}(t) \\begin{pmatrix} x_G(t) \\\\ y_G(t) \\\\ z_G(t) \\end{pmatrix} \\) souvent notées \\( \\begin{pmatrix} x(t) \\\\ y(t) \\\\ z(t) \\end{pmatrix} \\). \n Il s'écrit également : \\( \\vec{OG}(t) = x(t)\\vec{i} + y(t)\\vec{j} + z(t)\\vec{k}. \\)"
+        },
+        {
+            "type": "text",
+            "content": "Les équations donnant \\( x(t) \\), \\( y(t) \\) et \\( z(t) \\) sont appelées équations horaires de la position."
+        },
+        {
+            "type": "chapter",
+            "title": "2) Vecteur vitesse (instantanée)"
+        },
+        {
+            "type": "text",
+            "content": "Le vecteur vitesse \\( \\vec{v}(t)\\) d'un point \\(G\\) est la dérivée du vecteur position par rapport au temps : \\( \\vec{v}(t) = \\frac{d\\vec{OG}}{dt}(t)\\)"
+        },
+        {
+            "type": "text",
+            "content": "Ses coordonnées sont : \\( \\vec{v}(t) \\begin{cases} v_x(t) = \\frac{dx}{dt}(t) \\\\ v_y(t) = \\frac{dy}{dt}(t) \\\\ v_z(t) = \\frac{dz}{dt}(t) \\end{cases} \\)"
+        },
+        {
+            "type": "text",
+            "content": "Il s'écrit aussi : \\( \\vec{v}(t) = \\frac{dx}{dt}(t)\\vec{i} + \\frac{dy}{dt}(t)\\vec{j} + \\frac{dz}{dt}(t)\\vec{k} \\)."
+        },
+        {
+            "type": "text",
+            "content": "La valeur de la vitesse est : \\( v(t) = \\sqrt{(v_x(t))^2 + (v_y(t))^2 + (v_z(t))^2} \\)"
+        },
+        {
+            "type": "list",
+            "opening": "Caractéristiques du vecteur vitesse v(t)",
+            "contents": [
+                "Direction : tangente à la trajectoire.",
+                "Sens : celui du mouvement.",
+                "Valeur : exprimée en \\(m.s^{-1}\\)."
+            ]
+        },
+        {
+            "type": "chapter",
+            "title": "3) Vecteur accélération"
+        },
+        {
+            "type": "text",
+            "content": "Un objet a un vecteur accélération non nul si la valeur de sa vitesse varie ou si le vecteur vitesse change de direction (ou les deux à la fois). \n Le vecteur accélération instantanée a(t) d'un point G est défini par : \\( \\vec{a}(t) = \\frac{d\\vec{v}}{dt}(t) = \\frac{d^2\\vec{OG}}{dt^2}(t) \\)."
+        },
+        {
+            "type": "text",
+            "content": "Ses coordonnées sont : \n\\( \\vec{a}(t) \\begin{cases} a_x(t) = \\frac{dv_x(t)}{dt} = \\frac{d^2x(t)}{dt^2} \\\\ a_y(t) = \\frac{dv_y(t)}{dt} = \\frac{d^2y(t)}{dt^2} \\\\ a_z(t) = \\frac{dv_z(t)}{dt} = \\frac{d^2z(t)}{dt^2} \\end{cases} \\)"
+        },
+        {
+            "type": "text",
+            "content": "Il s'écrit aussi : \\( \\vec{a}(t) = \\frac{dv_x}{dt}(t)\\vec{i} + \\frac{dv_y}{dt}(t)\\vec{j} + \\frac{dv_z}{dt}(t)\\vec{k} = \\frac{d^2x(t)}{dt^2}\\vec{i} + \\frac{d^2y(t)}{dt^2}\\vec{j} + \\frac{d^2z(t)}{dt^2}\\vec{k} \\)."
+        },
+        {
+            "type": "text",
+            "content": "La valeur de l'accélération est : \\( a(t) = \\sqrt{(a_x(t))^2 + (a_y(t))^2 + (a_z(t))^2} \\)"
+        },
+        {
+            "type": "chapter",
+            "title": "4) Mouvements particuliers"
+        },
+        {
+            "type": "underchapter",
+            "title": "a) Mouvement rectiligne"
+        
+        },
+        {
+            "type": "text",
+            "content": "Un mouvement est rectiligne si la trajectoire est une droite. Il est caractérisé par les vecteurs vitesse et accélération :"
+        },
+        {
+            "type": "list",
+            "opening": "Pour un mouvement rectiligne",
+            "contents": [
+                "Mouvement rectiligne uniforme : le vecteur vitesse \\( \\vec{v} \\) est constant au cours du temps : \\( \\vec{v}(t) = \\vec{v} = \\text{constante} \\). \\( \\vec{a} = \\vec{0} \\) donc \\( \\vec{v} \\cdot \\vec{a} = 0 \\).",
+                "Mouvement rectiligne uniformément accéléré : le vecteur accélération est constant au cours du temps : \\( \\vec{a}(t) = \\vec{a} = \\text{constante} \\). Les vecteurs \\( \\vec{v} \\) et \\( \\vec{a} \\) sont de même sens. La valeur de v augmente. \\( \\vec{v} \\cdot \\vec{a} > 0 \\).",
+                "Mouvement rectiligne uniformément ralenti : le vecteur accélération est constant au cours du temps : \\( \\vec{a}(t) = \\vec{a} = \\text{constante} \\). Les vecteurs \\( \\vec{v} \\) et \\( \\vec{a} \\) sont de sens opposés. La valeur de v diminue. \\( \\vec{v} \\cdot \\vec{a} < 0 \\)."
+            ]
+        },
+        {
+            "type": "underchapter",
+            "title": "b) Mouvement circulaire"
+        },
+        {
+            "type": "text",
+            "content": "Un mouvement est circulaire si la trajectoire est un cercle. Il est caractérisé par les vecteurs vitesse et accélération :"
+        },
+        {
+            "type": "list",
+            "opening": "Pour un mouvement circulaire",
+            "contents": [
+                "Mouvement circulaire uniforme : le vecteur vitesse \\( \\vec{v}(t) \\) varie mais sa valeur v reste constante. Le vecteur accélération \\( \\vec{a} \\) est dirigé vers le centre de la trajectoire. \\( \\vec{v} \\cdot \\vec{a} = 0 \\).",
+                "Mouvement circulaire uniformément accéléré : le vecteur accélération est constant au cours du temps : \\( \\vec{a}(t) = \\vec{a} = \\text{constante} \\). Il est toujours dirigé vers l'intérieur de la trajectoire. La valeur de la vitesse v augmente. \\( \\vec{v} \\cdot \\vec{a} > 0 \\).",
+                "Mouvement circulaire uniformément ralenti : le vecteur accélération est constant au cours du temps : \\( \\vec{a}(t) = \\vec{a} = \\text{constante} \\). Il est toujours dirigé vers l'intérieur de la trajectoire. La valeur de la vitesse v diminue. \\( \\vec{v} \\cdot \\vec{a} < 0 \\)."
+            ]
+        },
+        {
+            "type": "act",
+            "title": "III - Lois de Newton"
+        },
+        {
+            "type": "chapter",
+            "title": "1) Première loi de Newton ou principe d'inertie"
+        },
+        {
+            "type": "text",
+            "content": "Un système isolé ne subit aucune force. En pratique un tel système n'existe pas. Un système est dit pseudo-isolé si la somme vectorielle (ou résultante) de toutes les forces qui lui sont appliquées est nulle ou encore si les actions mécaniques qui s'exercent sur lui se compensent."
+        },
+        {
+            "type": "text",
+            "content": "Énoncé : Le centre d'inertie d'un système isolé (ou pseudo) est en mouvement rectiligne uniforme ou au repos dans un référentiel galiléen."
+        },
+        {
+            "type": "text",
+            "content": "Autre énoncé : Soit un système de vitesse \\( \\vec{v} \\) soumis à des forces extérieures de somme \\( \\Sigma\\vec{F} \\). \\( \\Sigma\\vec{F} = \\vec{0} \\iff \\vec{v} \\) est un vecteur constant dans un référentiel galiléen."
+        },
+        {
+            "type": "list",
+            "opening": "Remarques",
+            "contents": [
+                "Il existe une famille de référentiels, appelés galiléens, dans lesquels un point matériel isolé (ou pseudo) est au repos ou en mouvement rectiligne uniforme.",
+                "Tout référentiel en translation rectiligne uniforme par rapport à un référentiel galiléen est lui-même galiléen."
+            ]
+        },
+        {
+            "type": "chapter",
+            "title": "2) Deuxième loi de Newton ou principe fondamental de la dynamique"
+        },
+        {
+            "type": "text",
+            "content": "Dans un référentiel galiléen, le vecteur accélération d'un point matériel est proportionnel à la somme vectorielle des forces qui lui sont appliquées : \n \\( \\Sigma\\vec{F} = m.\\vec{a} \\)"
+        },
+        {
+            "type": "list",
+            "opening": "Avec",
+            "contents": [
+                "\\( m \\) : masse du point matériel en kg",
+                "\\( a \\) : accélération en \\( m.s^{-2} \\)",
+                "\\( F \\) : force en N"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Remarque : L'application de la 2ème loi de Newton à un système pseudo-isolé montre que celui-ci ne subit pas d'accélération. Donc son vecteur vitesse est constant. On retrouve l'expression de la 1ère loi de Newton."
+        },
+        {
+            "type": "chapter",
+            "title": "3) Troisième loi de Newton ou principe des actions réciproques"
+        },
+        {
+            "type": "text",
+            "content": "Deux corps en interaction exercent l'un sur l'autre des forces opposées. Le corps A, exerçant sur B une force \\( \\vec{F}_{A/B} \\), subit de la part de B, la force \\( \\vec{F}_{B/A} \\) telle que : \\( \\vec{F}_{A/B} = -\\vec{F}_{B/A} \\)."
+        }
+    ]
+}
