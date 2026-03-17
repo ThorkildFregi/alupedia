@@ -7,6 +7,10 @@
                 {
                     "file": "complexe.json",
                     "title": "Les nombres complexes"
+                },
+                {
+                    "file": "dual.json",
+                    "title": "Les nombres duaux"
                 }
             ]
         },
@@ -29,12 +33,12 @@
             "title": "Physique",
             "contents": [
                 {
-                    "file": "mvt_planet.json",
-                    "title": "Mouvements des planètes et des satellites"
-                },
-                {
                     "file": "principe_meca.json",
                     "title": "Principe de la mécanique"
+                },
+                {
+                    "file": "mvt_planet.json",
+                    "title": "Mouvements des planètes et des satellites"
                 }
             ]
         }

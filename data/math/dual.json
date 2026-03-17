@@ -1,0 +1,86 @@
+{
+    "subject": "Mathématiques",
+    "title": "Les nombre duaux",
+    "contents": [
+        {
+            "type": "act",
+            "title": "I - Définition et propriétés"
+        },
+        {
+            "type": "chapter",
+            "title": "1) Anneau unitaire et commutatif"
+        },
+        {
+            "type": "math_definition",
+            "content": "Un anneau unitaire appelé plus souvent anneau est un ensemble muni de deux opérations qui satisfont certaines des propriétés de l'addition et de la multiplication des nombres entiers relatifs."
+        },
+        {
+            "type": "math_exemple",
+            "content": "L'ensemble \\( \\mathbb{Z} \\) des entiers relatifs et l'ensemble \\( M_n(A) \\) des matrices carrées sont des anneaux unitaires."
+        },
+        {
+            "type": "math_definition",
+            "content": "Un anneau commutatif est un anneau unitaire dans lequel la loi de la multiplication est commutative."
+        },
+        {
+            "type": "math_exemple",
+            "content": "L'ensemble \\( \\mathbb{Z} \\) des entiers relatifs est un anneau commutatif, alors que l'ensemble \\( M_n(A) \\) des matrices carrées n'est pas un anneau commutatif."
+        },
+        {
+            "type": "chapter",
+            "title": "2) Définition"
+        },
+        {
+            "type": "math_definition",
+            "content": "Un anneau commutatif \\( R \\) est dit être un anneau commutatif dual général si : \n - Chaque élément de \\( R \\) est de la forme : \\( z = a + b\\varepsilon \\) où \\( (a;b)\\in R^2 \\) \n - \\( \\varepsilon \\) est un élément nilpotent, c'est-à-dire : \\( \\varepsilon^2 = 0 \\), unique et lui-même non nul."
+        },
+        {
+            "type": "math_pt",
+            "content": "R^2 est muni des lois d'addition et de multiplication sur les couples des nombres réels : \n \\( (a;b) + (c;d) = (a+c;b+d) \\) \n \\( (a;b)*(c;d) = (a*c;a*d+b*c) \\)"
+        },
+        {
+            "type": "chapter",
+            "title": "3) Forme algébrique"
+        },
+        {
+            "type": "math_definition",
+            "content": "Un nombre dual s'écrit sous la forme : $$ z = a + b \\varepsilon $$ \n où \\( (a;b) \\in R^2 \\) \n On a : \\( \\begin{cases} a = Re(z) \\\\ b = Du(z) \\end{cases} \\) \n \\( Re(z) \\) est la partie réelle et \\( Du(z) \\) est la partie duale."
+        },
+        {
+            "type": "math_pt",
+            "content": "Soit \\( z_1 = a + b \\varepsilon \\) et \\( z_2 = c + d \\varepsilon \\) deux nombres duaux. \n Pour l'addition, on a : \n \\( \\begin{align} z_1 + z_2 &= (a + b\\varepsilon) + (c + d\\varepsilon) \\\\ &= (a + c) + (b + d) \\varepsilon \\end{align} \\) \n Pour la multiplication, on a : \n \\( \\begin{align} z_1 * z_2 &= (a + b\\varepsilon) * (c + d\\varepsilon) \\\\ &= (a*c) + (ad + bc) \\varepsilon \\end{align} \\)"
+        },
+        {
+            "type": "math_dem",
+            "content": "\\( \\begin{align} z_1 + z_2 &= (a + b\\varepsilon) + (c + d\\varepsilon) \\\\ &= a + c + b\\varepsilon + d\\varepsilon \\\\ &= (a+c) + (b+d)\\varepsilon \\end{align} \\) \n \\( \\begin{align} z_1 * z_2 &= (a + b\\varepsilon) * (c + d\\varepsilon) \\\\ &= ac + ad\\varepsilon + bd\\varepsilon^2 + bc\\varepsilon \\\\ &= ac + ad\\varepsilon + 0 + bc\\varepsilon \\\\ &= (a*c) + (ad + bc) \\varepsilon \\end{align} \\)"
+        },
+        {
+            "type": "act",
+            "title": "II - Différentiation et Série de Taylor"
+        },
+        {
+            "type": "chapter",
+            "title": "1) Propriété"
+        },
+        {
+            "type": "math_definition",
+            "content": "Soit \\( z = a + b \\varepsilon \\) un nombre dual. \n \\( f(z) = f(a+b\\varepsilon) = f(a) + bf'(a)\\varepsilon \\)"
+        },
+        {
+            "type": "math_exemple",
+            "content": "\\( \\sin(a+b\\varepsilon) = \\sin(a) + b\\cos(a)\\varepsilon \\)"
+        },
+        {
+            "type": "math_dem",
+            "content": "Supposons \\( f \\) une fonction continue et \\( n \\) fois dérivable sur \\(a\\). \n On souhaite évaluer \\( f \\) au point \\( X = a + \\Delta \\), où \\( \\Delta = b\\varepsilon \\). \n La série de Taylor en \\(a\\) nous dit : \n \\( \\begin{align} f(a + \\Delta) &= \\displaystyle\\sum_{k=0}^{\\infty} \\frac{f^{(k)}(a)}{k!} (a + \\Delta - a)^k \\\\ &= \\displaystyle\\sum_{k=0}^{\\infty} \\frac{f^{(k)}(a)}{k!} \\Delta^k \\\\ &= f(a) + f'(a)\\Delta + \\frac{f''(a)}{2!}\\Delta^2 + ... + \\frac{f^n(a)}{n!}\\Delta^n \\end{align} \\) \n Or \\( \\Delta = b \\varepsilon \\) \n D'où : \n \\( \\begin{align} f(a + b\\varepsilon) &= \\displaystyle\\sum_{k=0}^{\\infty} \\frac{f^{(k)}(a)}{k!} (a + \\Delta - a)^k \\\\ &= \\displaystyle\\sum_{k=0}^{\\infty} \\frac{f^{(k)}(a)}{k!} \\Delta^k \\\\ &= f(a) + f'(a)b\\varepsilon + \\frac{f''(a)}{2!}b^2\\varepsilon^2 + ... + \\frac{f^n(a)}{n!}b^n\\varepsilon^n \\\\ &= f(a) + bf'(a)\\varepsilon \\end{align} \\)"
+        },
+        {
+            "type": "chapter",
+            "title": "2) Différentiation automatique"
+        },
+        {
+            "type": "text",
+            "content": "Faisons la différentiation automatique de \\( f(x) = x^2 \\) \n On prends \\( X = x + \\varepsilon \\) \n \\( \\begin{align} f(x + \\varepsilon) &= (x + \\varepsilon)^2 \\\\ &= x^2 +2x\\varepsilon + \\varepsilon^2 \\\\ &= x^2 + 2x\\varepsilon \\end{align} \\) \n Or \\( f(x + \\varepsilon) = f(x) + f'(x)\\varepsilon \\) \n Par identification : \n \\( f(x) = x^2 \\) et \\( f'(x) = 2x \\) \n D'où \\( x^2 \\) a pour dérivée \\( 2x \\)"
+        }
+    ]
+}
